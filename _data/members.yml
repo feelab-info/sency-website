@@ -1,0 +1,54 @@
+- name: Lucas Pereira
+  degrees: PhD
+  image: team_Lucas-Pereira.jpeg
+  altimage: 
+  #position: 
+  email: lucas.pereira (at) tecnico.ulisboa.pt
+  website: https://alspereira.info
+  scholar: ZBvNgMsAAAAJ&hl
+  twitter: "alspereira"
+  # github: winstonchiong
+  orcid: "orcid.org/0000-0002-9110-8775"
+  description: Lucas Pereira received his PhD in Computer Science from the University of Madeira, Portugal, in 2016. 
+              Since then, he is at ITI/LARSyS, where he leads the Further Energy and Environment research Laboratory (FEELab). 
+              Since 2019 he is an Assistant Researcher at Instituto Superior Técnico (IST).
+              
+
+               Lucas’s research applies data science, machine learning, and human-computer interaction techniques
+              to structured and unstructured data streams to address real-world problems focusing on the Sustainable Development Goals (SDGs). 
+              His current research focuses on future energy systems, and sustainable built environments (SDGs 7, 11, 12, 13), and 
+              typically involves the real-world deployment and evaluation of non-intrusive monitoring technologies and intelligent software systems.
+              
+
+- name: Catarina Rolim
+  degrees: PhD
+  image: team_member.png
+  altimage: 
+  #position: Postdoc
+  email: catarina.rolin (at) tecnico.ulisboa.pt
+  #website: https://profiles.ucsf.edu/tobias.haeusermann
+  scholar: qe4mnY4AAAAJ
+  #description: 
+              
+              
+- name: Hugo Morais
+  degrees: PhD
+  image: team_member.png
+  altimage: 
+  #position: Postdoc
+  email: hugo.morais (at) tecnico.ulisboa.pt
+  scholar: A-YHLHkAAAAJ
+  website: https://sites.google.com/tecnico.ulisboa.pt/hmorais/
+  #description:
+  
+   
+- name: Rui Castro
+  degrees: PhD
+  image: team_member.png
+  altimage: 
+  #position:
+  email: rcastro (at) tecnico.ulisboa.pt
+  scholar: oIRnXSkAAAAJ
+  website: https://sites.google.com/site/ruigameirocastro/
+  orcid: orcid.org/0000-0002-3108-8880 
+  #description:

@@ -7,13 +7,16 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  //--global-theme-color: #{$purple-color};
+  --global-theme-color: #{$green-color-dark};
+  //--global-hover-color: #{$purple-color};
+  --global-hover-color: #{$green-color-dark};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
+  //--global-logo: #{$logo};
 
   .fa-sun {
     display : none;
@@ -23,6 +26,15 @@
     padding-top: 12px;
     display : block;
   }
+
+  .logo_b {
+    display: none;
+  }
+
+  .logo_w {
+    display: block;
+  }
+
 }
 
 html[data-theme='dark'] {
@@ -37,6 +49,7 @@ html[data-theme='dark'] {
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
+  //--global-logo: #{$logo-dark};
 
   .fa-sun {
     padding-left: 10px;
@@ -45,5 +58,13 @@ html[data-theme='dark'] {
   }
   .fa-moon {
     display : none;
+  }
+
+  .logo_w {
+    display: none;
+  }
+
+  .logo_b {
+    display: block;
   }
 }

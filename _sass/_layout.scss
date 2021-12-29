@@ -28,10 +28,24 @@ body.sticky-bottom-footer {
 
 // Profile
 .profile {
+  background-image: var(--global-logo);
+  background-size: contain;
+  background-repeat: no-repeat;
   img {
     width: 100%;
   }
 }
+
+.specialParagraph strong {
+  color: var(--global-theme-color)
+}
+
+//.logo {
+  //background-image: var(--global-logo);
+  //background-repeat: no-repeat;
+  //background-size: 300px;
+  //border:1px solid;
+//}
 
 // TODO: redefine content layout.
 

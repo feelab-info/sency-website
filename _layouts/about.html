@@ -8,24 +8,31 @@ layout: default
     <h1 class="post-title">
      {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
     </h1>
-     <p class="desc">{{ page.description }}</p>
+     <h2 class="desc">{{ page.description }}</h2>
   </header>
-
+  
   <article>
     {% if page.profile %}
-    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+    <div class="logo_b profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
       {% if page.profile.image %}
         {% responsive_image_block %}
-          path: {{ page.profile.image | prepend: 'assets/img/' }}
-          class: "img-fluid z-depth-1 rounded"
+          path: {{ page.profile.image_b | prepend: 'assets/img/' }}
+          style: "width:100%"
+          //class: "img-fluid z-depth-1 rounded"
           alt: {{ page.profile.image }}
         {% endresponsive_image_block %}
       {% endif %}
-      {% if page.profile.address %}
-        <div class="address">
-          {{ page.profile.address }}
-        </div>
+      
+    </div>
+    <div class="logo_w profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% if page.profile.image %}
+        {% responsive_image_block %}
+          path: {{ page.profile.image_w | prepend: 'assets/img/' }}
+          //class: "img-fluid z-depth-1 rounded"
+          alt: {{ page.profile.image }}
+        {% endresponsive_image_block %}
       {% endif %}
+      
     </div>
     {% endif %}
 
