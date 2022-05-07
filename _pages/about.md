@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+#description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 description: Exploring the Human-Water-Energy Nexus in Industrial Kitchens
 
 profile:

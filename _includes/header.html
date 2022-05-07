@@ -3,9 +3,11 @@
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
+      
       {% if page.title != "Home" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+       <!--{% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}-->
+       <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}
       </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
@@ -85,8 +87,31 @@
             </div>
           {% endif %}
         </ul>
+        <div id="google_translate_element"></div>
       </div>
     </div>
   </nav>
-
+      
+  <script type="text/javascript"> 
+      function googleTranslateElementInit() { 
+          new google.translate.TranslateElement(
+              {pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+              'google_translate_element'
+          ); 
+      } 
+  </script> 
+  <style type="text/css">
+    body{
+      top: 0px !important; 
+      position: static !important; 
+    }
+    .goog-te-banner-frame{
+      display:none !important
+    }
+    #google_translate_element {
+      margin-left:20px;
+    }
+  </style>
+    
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </header>

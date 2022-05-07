@@ -22,23 +22,33 @@
 
 - name: Catarina Rolim
   degrees: PhD
-  image: team_member.png
+  image: team_Catarina-Rolim.jpg
   altimage: 
   #position: Postdoc
   email: catarina.rolin (at) tecnico.ulisboa.pt
   #website: https://profiles.ucsf.edu/tobias.haeusermann
   scholar: qe4mnY4AAAAJ
-  #description: 
+  orcid: "orcid.org/0000-0003-0019-1997"
+  description: Catarina Rolim has a degree in Psychology, in the field of Educational Psychology from the Institute of Applied Psychology
+               in Lisbon (five-year degree) and a Ph.D. in Sustainable Energy Systems from Instituto Superior Técnico, University of Lisbon, Portugal. 
+               She is currently a Post-doc researcher at IN+ Center for Innovation, Technology and Policy Research/LARSyS. 
+               
+               
+               Her main research has focused on the sustainable development of cities, considering the citizens’ important role in this transformation. 
+               Her research topics are citizen engagement in the design and implementation of new services and technologies, willingness to adopt new solutions and, 
+               behaviour change and its consequent energy and environmental impacts.
+
               
               
 - name: Hugo Morais
   degrees: PhD
-  image: team_member.png
+  image: team_Hugo-Morais.jpg
   altimage: 
   #position: Postdoc
   email: hugo.morais (at) tecnico.ulisboa.pt
   scholar: A-YHLHkAAAAJ
   website: https://sites.google.com/tecnico.ulisboa.pt/hmorais/
+  orcid: "orcid.org/0000-0001-5906-4744"
   #description:
   
    
@@ -50,5 +60,5 @@
   email: rcastro (at) tecnico.ulisboa.pt
   scholar: oIRnXSkAAAAJ
   website: https://sites.google.com/site/ruigameirocastro/
-  orcid: orcid.org/0000-0002-3108-8880 
+  orcid: "orcid.org/0000-0002-3108-8880" 
   #description:
