@@ -13,8 +13,7 @@
               Since then, he is at ITI/LARSyS, where he leads the Further Energy and Environment research Laboratory (FEELab). 
               Since 2019 he is an Assistant Researcher at Instituto Superior Técnico (IST).
               
-
-               Lucas’s research applies data science, machine learning, and human-computer interaction techniques
+              Lucas’s research applies data science, machine learning, and human-computer interaction techniques
               to structured and unstructured data streams to address real-world problems focusing on the Sustainable Development Goals (SDGs). 
               His current research focuses on future energy systems, and sustainable built environments (SDGs 7, 11, 12, 13), and 
               typically involves the real-world deployment and evaluation of non-intrusive monitoring technologies and intelligent software systems.
@@ -33,17 +32,15 @@
                in Lisbon (five-year degree) and a Ph.D. in Sustainable Energy Systems from Instituto Superior Técnico, University of Lisbon, Portugal. 
                She is currently a Post-doc researcher at IN+ Center for Innovation, Technology and Policy Research/LARSyS. 
                
-               
                Her main research has focused on the sustainable development of cities, considering the citizens’ important role in this transformation. 
                Her research topics are citizen engagement in the design and implementation of new services and technologies, willingness to adopt new solutions and, 
                behaviour change and its consequent energy and environmental impacts.
 
               
-              
 - name: Hugo Morais
   degrees: PhD
   image: team_Hugo-Morais.jpg
-  altimage: 
+  #altimage: 
   #position: Postdoc
   email: hugo.morais (at) tecnico.ulisboa.pt
   scholar: A-YHLHkAAAAJ
@@ -51,14 +48,51 @@
   orcid: "orcid.org/0000-0001-5906-4744"
   #description:
   
-   
 - name: Rui Castro
   degrees: PhD
   image: team_member.png
-  altimage: 
+  #altimage: 
   #position:
   email: rcastro (at) tecnico.ulisboa.pt
   scholar: oIRnXSkAAAAJ
   website: https://sites.google.com/site/ruigameirocastro/
   orcid: "orcid.org/0000-0002-3108-8880" 
+  #description:
+
+- name: Ricardo Martins
+  degrees: MSc
+  image: team_Ricardo-Martins.jpg
+  #altimage: 
+  #position: MSc Student
+  email: r.pedrasmartins (@) gmail.com
+  #scholar: oIRnXSkAAAAJ
+  website: https://www.linkedin.com/in/pedrasmartins
+  #orcid: "orcid.org/0000-0002-3108-8880" 
+  description: Ricardo Martins has a Master Degree in Mechanical Engineering from Instituto Superior Técnico, University of Lisbon, Portugal. 
+              He worked for 6 years as a structural engineer of steel structures where among other developments he gained domain knowledge about 
+              instrumentation systems from application to analysis. Since 2020 he is a student of the Master Degree in Data Science from IST with this final 
+              thesis focusing in developing data-driven simulations of electricity and water demand.
+
+- name: Gonçalo Morais
+  degrees: BSc
+  image: team_Goncalo-Morais.png
+  #altimage: 
+  #position: MSc Student
+  email: goncalo.de.morais (at) tecnico.ulisboa.pt
+  #scholar: oIRnXSkAAAAJ
+  website: https://www.linkedin.com/in/goncalogmorais/
+  #orcid: "orcid.org/0000-0002-3108-8880" 
+  description: Gonçalo Morais is a final year student of MSc in Electrical and Computer Engineering, in the field of control, robotics and artificial intelligence, 
+              from Instituto Superior Técnico, University of Lisbon, Portugal. In nexIK, the tasks are focused on resource monitoring, implementation and maintenance 
+              of the data collection systems. Ongoing work involves updating the monitoring systems and disaggregating water consumption.
+
+- name: Ana Oliveira
+  degrees: BSc
+  image: team_member.png
+  #altimage: 
+  position: MSc Student
+  #email: rcastro (at) tecnico.ulisboa.pt
+  #scholar: oIRnXSkAAAAJ
+  #website: https://sites.google.com/site/ruigameirocastro/
+  #orcid: "orcid.org/0000-0002-3108-8880" 
   #description:

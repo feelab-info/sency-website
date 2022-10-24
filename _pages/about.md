@@ -34,4 +34,8 @@ This project builds upon ongoing research in two associate laboratories from Por
 
 The **nexIK** project (EXPL/CCI-COM/1234/2021) is funded by the FCP, I.P. /MCTES through national funds (PIDDAC).
 
+
+<strong style="color:#014f82"> Participate in the nexIK project by providing information about your Commercial / Industrial Kitchen. You can do that by filling out this survey: <a href="http://shorturl.at/hPZ49" target="_blank">http://shorturl.at/hPZ49</a><strong>
+
+
 </div>

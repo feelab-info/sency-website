@@ -1,9 +1,11 @@
 ---
 layout: post
-title: NOW HIRING! Applications are open for a 9 months research studentship.
+title: CLOSED! Applications are open for a 9 months research studentship.
 date: 2022-02-02 15:32:00-0000
 inline: false
 ---
+
+<strong style="color:red">This job offer has expired.</strong>
 
 Applications are open for 1 Research Studentship, within the framework of project nexIK: Exploring the Human-Water-Energy Nexus in Industrial Kitchens, EXPL/CCI-COM/1234/2021, financed by national funds through FCT/MCTES (PIDDAC).
 
