@@ -1,9 +1,11 @@
 ---
 layout: post
-title: NOW HIRING! Applications are open for a 6 months Scientific Initiation Studentship (deadline on 28-10-2022).
+title: CLOSED! Applications are open for a 6 months Scientific Initiation Studentship (deadline on 28-10-2022).
 date: 2022-10-17 00:00:00-0000
 inline: false
 ---
+
+<strong style="color:red">This job offer has expired.</strong>
 
 Applications are open for 1 Research Studentship, within the framework of project nexIK: Exploring the Human-Water-Energy Nexus in Industrial Kitchens, EXPL/CCI-COM/1234/2021, financed by national funds through FCT/MCTES (PIDDAC),
 
