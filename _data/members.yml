@@ -18,25 +18,6 @@
               His current research focuses on future energy systems, and sustainable built environments (SDGs 7, 11, 12, 13), and 
               typically involves the real-world deployment and evaluation of non-intrusive monitoring technologies and intelligent software systems.
               
-
-- name: Catarina Rolim
-  degrees: PhD
-  image: team_Catarina-Rolim.jpg
-  altimage: 
-  #position: Postdoc
-  email: catarina.rolin (at) tecnico.ulisboa.pt
-  #website: https://profiles.ucsf.edu/tobias.haeusermann
-  scholar: qe4mnY4AAAAJ
-  orcid: "orcid.org/0000-0003-0019-1997"
-  description: Catarina Rolim has a degree in Psychology, in the field of Educational Psychology from the Institute of Applied Psychology
-               in Lisbon (five-year degree) and a Ph.D. in Sustainable Energy Systems from Instituto Superior Técnico, University of Lisbon, Portugal. 
-               She is currently a Post-doc researcher at IN+ Center for Innovation, Technology and Policy Research/LARSyS. 
-               
-               Her main research has focused on the sustainable development of cities, considering the citizens’ important role in this transformation. 
-               Her research topics are citizen engagement in the design and implementation of new services and technologies, willingness to adopt new solutions and, 
-               behaviour change and its consequent energy and environmental impacts.
-
-              
 - name: Hugo Morais
   degrees: PhD
   image: team_Hugo-Morais.jpg
@@ -63,7 +44,7 @@
   degrees: MSc
   image: team_Ricardo-Martins.jpg
   #altimage: 
-  #position: MSc Student
+  position: MSc Student
   email: r.pedrasmartins (@) gmail.com
   #scholar: oIRnXSkAAAAJ
   website: https://www.linkedin.com/in/pedrasmartins
@@ -77,7 +58,7 @@
   degrees: BSc
   image: team_Goncalo-Morais.png
   #altimage: 
-  #position: MSc Student
+  position: MSc Student
   email: goncalo.de.morais (at) tecnico.ulisboa.pt
   #scholar: oIRnXSkAAAAJ
   website: https://www.linkedin.com/in/goncalogmorais/
@@ -88,11 +69,49 @@
 
 - name: Ana Oliveira
   degrees: BSc
-  image: team_member.png
+  image: team_Ana-Oliveira.jpeg
   #altimage: 
   position: MSc Student
-  #email: rcastro (at) tecnico.ulisboa.pt
+  email: ana.g.oliveira (at) tecnico.ulisboa.pt
   #scholar: oIRnXSkAAAAJ
   #website: https://sites.google.com/site/ruigameirocastro/
   #orcid: "orcid.org/0000-0002-3108-8880" 
-  #description:
+  description: Ana Oliveira is a final year student of MSc in Electrical and Computer Engineering, in the field of energy, from Instituto Superior Técnico, 
+              University of Lisbon, Portugal. Her final thesis is focused on modeling and optimization of nexIK load' flexibilities. 
+              The tasks also involve reconciling flexibilities with production and storage of energy.
+
+- name: Miriam Ribeiro
+  degrees: BSc
+  image: team_Miriam-Ribeiro.jpeg
+  #altimage: 
+  position: Resarch Intern
+  email: miriamribeiroalves (at) usp.br
+  #scholar: oIRnXSkAAAAJ
+  website: https://www.linkedin.com/in/miriamribeir/
+  #orcid: "orcid.org/0000-0002-3108-8880" 
+  description: Miriam Ribeiro is a bachelor student in Environmental Engineering at Polytechnic School of the University of São Paulo in Brazil and an exchange student at Instituto Superior Técnico, University of Lisbon in Portugal. 
+              Her work in this project is to develop and validate a taxonomy related to industrial kitchens using data provided by restaurants located throughout Lisbon.
+
+- name: Toni Garcês
+  #degrees: BSc Student
+  image: team_member.png
+  #altimage: 
+  position: BSc Student
+  email: 2081620 (at) student.uma.pt
+  #scholar: oIRnXSkAAAAJ
+  #website: https://sites.google.com/site/ruigameirocastro/
+  #orcid: "orcid.org/0000-0002-3108-8880" 
+  description: Toni Garcês is a bachelor student in Informatics Engineering at University of Madeira. His role is the project will be the design and development of
+               user interfaces for the water-energy nexus in Industrial Kitchens.
+
+- name: Vasco Andrade
+  degrees: BSc
+  image: team_Vasco-Andrade.jpg
+  #altimage: 
+  position: MSc Student
+  email: vasco.andrade (at) tecnico.ulisboa.pt
+  #scholar: oIRnXSkAAAAJ
+  #website: https://sites.google.com/site/ruigameirocastro/
+  #orcid: "orcid.org/0000-0002-3108-8880" 
+  description: Vasco Andrade is a final year student of MSc in Electrical and Computer Engineering, in the field of energy, from Instituto Superior Técnico, University of Lisbon, Portugal. 
+              His work in this project is focused on the forecast of electric load and consumption. The ongoing work consists in evaluating forecast models accuracy for predictions in IK.
