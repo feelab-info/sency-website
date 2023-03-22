@@ -1,0 +1,85 @@
+- name: Air Conditioning
+  image: tip_Air-Conditioning.jpg
+  brief: Tip Brief Description
+  description: Adjusting the device for temperatures between 22°C and 24°C, is possible to save up to 50% on energy consumption.
+              Adapting to the most suitable operating temperature (18°C Winter and 25°C Summer), is a step without costs that
+              allows significant savings.
+              Changing 1°C of the operating temperature measures in savings up to 7% of the energy consumption.
+
+- name: Heating Floor
+  image: tip_Heating-Floor.jpg
+  brief: Tip Brief Description
+  description: Double functionality, the structure allows the possibility of delivering heating or cooling to a specific area by
+              using the same tubing circuit.
+              The system is economic displaying energy savings between 25% - 30% in comparison to traditional heating systems,
+              and still being able to achieve higher percentages in contrast to energy renewable systems.
+
+- name: Class A Products
+  image: tip_Class-A.jpg
+  brief: Tip Brief Description
+  description: Differences in efficiency inside class A can be significant, products of class A+++ consume up to 30% less
+              energy than a product of class A, or up to 60% in case of freezing appliances.
+
+- name: Appliance Maintenance
+  image: tip_Appliance-Maintenance.jpg
+  brief: Tip Brief Description
+  description: Doing a regular adequate maintenance to all the appliances could save up to 15% on energy consumption.
+
+
+- name: Illumination
+  image: tip_Tip-Name.jpg
+  brief: Tip Brief Description
+  description: Fluorescent Tubular Bulbs are describer as having a superior energy efficiency in comparison to Incandescent Bulbs, consuming up to 80%
+              less electricity. Fluorescent Lights have a lifespan between 10.000 and 20.000 hours and are frequently used in kitchens.
+
+              LED (Light Emitting Diode) is, at the moment in technology, the most efficient and displays higher levels of durability.
+              Managing savings up to 90% of energy in contrast with Incandescent Bulbs, even though LEDs are costly their lifespan is between
+              40.000 and 80.000 hours. LED tech doesn't require toxics in their composition being free of mercury.
+
+
+
+              To maximize savings in the illumination sector is suggested the replacement of T8 lights to 'GreenTubes Eco-Balastro' lights easily allowing any lighting
+              system update to new T5 efficient lights. It is also recommended to replace any Incandescent lamps for LEDs.
+
+              There are measures that can be taken in order to take advantage of the natural illumination, using lighter colors on the walls maximizing the existing
+              illumination, adapting the light levels according to the activities, avoiding the usage of Incandescent Bulbs, opting for Fluorescent, 'Eco-Balastro' and
+              LED lights is always possible.
+
+- name: Dishwasher
+  image: tip_Dishwasher.jpg
+  brief: Tip Brief Description
+  description: Reducing the drying time to the minimum, or turning off the dishwasher after the rinsing and opening the door,
+              enabling the dishes to dry without wasting energy, is a step that can save between 30% and 50% energy of a full washing
+              cycle.
+
+              Dishwashers are the biggest consumer in the appliances sector, is recommended to connect the machine to the AQS grid
+              making it save significant energy.
+
+
+- name: Fridge
+  image: tip_Fridge.jpg
+  brief: Tip Brief Description
+  description: -> Changing from a traditional fridge to an ecological;
+
+               -> Replacing refrigeration systems with more than 10 years, specially old compressors for ones
+              with new motors giving higher efficiency;
+
+              -> Installing capacitors in open areas with good maintenance, using digital tools to control all appliances
+              reducing the costs of energy and operation.
+
+
+              The average savings verified by replacing old fridges for new ones with classes A+, A++ and A+++ were, respectively, 70%, 76% and 85%.
+
+
+- name: Photovoltaic System
+  image: tip_Photovoltaic-System.jpg
+  brief: Tip Brief Description
+  description: >
+              In Europe Portugal is one of the countries with more solar exposition, regarding the initial costs of this approach
+              is advised a thorough economic analysis.
+
+              According to a search made by 'Associação Brasileira de Refrigeração', each square meter of solar panel installed allows:
+
+              -> Save 55kg of GLP and 215kg of wood per year;
+
+              -> Save 66l of diesel per year;.
