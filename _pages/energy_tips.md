@@ -11,7 +11,7 @@ nav: true
 
 #### Current energy saving tips
 
-<!-- <input type="text" onkeyup="searchFunction()" class="form-control" id="mySearch" placeholder="Search for tips..."> -->
+<input type="text" onkeyup="searchFunction()" class="form-control" id="mySearch" placeholder="Search for tips...">
 
 
 <div id="tipsWrapper">
@@ -37,7 +37,7 @@ nav: true
         </div>
     </div>
     <hr>
-<div>
+</div>
 
 {% endfor %}
 

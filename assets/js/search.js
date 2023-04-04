@@ -1,5 +1,5 @@
 function searchFunction() {
-    var input, filter, tipsWrapper, tips, tipTitle, i, textValue;
+    var input, filter, tipsWrapper, tipTitle, i, textValue;
 
     input = document.getElementById("mySearch").value;
 
@@ -7,13 +7,17 @@ function searchFunction() {
 
     tipsWrapper = document.getElementById("tipsWrapper")
 
-    tips = tipsWrapper.getElementsByClassName("tipContainer")
+    const tips = tipsWrapper.getElementsByClassName("tipContainer")
+
+    //console.log(tips)
 
     for (i = 0; i < tips.length; i++) {
       tipTitle = tips[i].getElementsByClassName("tipTitle")[0]
       textValue = tipTitle.textContent || tipTitle.innerText;
 
-      if(textValue == filter) {
+      console.log(textValue.toUpperCase().indexOf(filter))
+
+      if(textValue.toUpperCase().indexOf(filter) > -1) {
         tips[i].style.display = "";
       } else {
         tips[i].style.display = "none";
