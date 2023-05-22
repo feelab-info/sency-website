@@ -7,12 +7,12 @@ description: Tips to reduce energy usage
 nav: true
 ---
 <script async src="{{ base.url | prepend: site.url }}/assets/js/search.js"></script>
+<script async src="{{ base.url | prepend: site.url }}/assets/js/calculator.js"></script>
 
 
 #### Current energy saving tips
 
 <input type="text" onkeyup="searchFunction()" class="form-control" id="mySearch" placeholder="Search for tips...">
-
 
 <div id="tipsWrapper">
 
@@ -41,4 +41,45 @@ nav: true
 
 {% endfor %}
 
+<div style="display:flex; justify-content:center; align-items:center;">
+    <h4> Tips Calculator </h4>
+</div>
+
+<div style="display:block; height:auto;">
+    <div style="display:flex;">
+        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; width: 50%">
+            <label for="energyInput" style="margin-top:0.5rem; margin-bottom:0 !important;"> Estimated Energy (kWh):</label>
+            <input id="energyInput" type="text" onkeypress="isNumberKey(event)">
+            <label for="priceInput" style="margin-top:0.5rem; margin-bottom:0 !important;"> Price (€/kWh):</label>
+            <input id="priceInput" type="text" value="0.16" onkeypress="isNumberKey(event)">
+            <label style="margin-top:0.5rem; margin-bottom:0 !important;">Base Price:</label>
+            <p id="basePrice">0 €</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:center; width: 50%">
+            <label for="Select Tips">Select Tips:</label>
+            <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; width:100%;">
+                <div style="display:flex; flex-direction:row; width:100%;">
+                <label style="width:75%;">Air Conditioning: </label>
+                <input id="tip1" type="checkbox">
+                </div>
+                <div style="display:flex; flex-direction:row; width:100%;">
+                <label style="width:75%;">Dishwasher: </label>
+                <input id="tip2" type="checkbox" >
+                </div>
+                <div style="display:flex; flex-direction:row; width:100%;">
+                <label style="width:75%;">Illumination: </label>
+                <input id="tip3" type="checkbox" >
+                </div>
+                <div style="display:flex; flex-direction:row; width:100%;">
+                <label style="width:75%;">Fridge: </label>
+                <input id="tip4" type="checkbox" >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div style="display:flex; justify-content:center; align-items:center;">
+<p id="showResultElement"> Final Result: 0 kWh (0 €) | Savings: 0 kWh (0 €) </p>
 </div>
