@@ -12,7 +12,9 @@ var finalPrice = 0;
 var finalSavings = 0;
 var finalPercentage = 0;
 var basePrice = 0;
+var baseEnergy = 0;
 
+var setPriceFlag = false;
 
 // Get all the checkbox elements
 const checkboxes = document.querySelectorAll('input[type="checkbox"]');
@@ -100,13 +102,73 @@ checkboxes.forEach((checkbox) => {
   });
 });
 
+const radiobuttons = document.querySelectorAll('input[type="radio"]');
+
+radiobuttons.forEach( (radiobutton) => {
+    radiobutton.addEventListener("change", (event) => {
+        let inputType = event.target.value;
+
+        switch (inputType) {
+            case "euro":
+                resetCalculator();
+                document.querySelector('label[for="energyInput"]').textContent = "Full Price:";
+                document.querySelector('label[for="energyInput"]').setAttribute("for", "fullpriceInput");
+                document.getElementById('energyInput').value = "";
+                document.getElementById('energyInput').id = "fullpriceInput";
+
+                document.querySelector('label[for="basePrice"]').textContent = "Base Energy:";
+                document.querySelector('label[for="basePrice"]').setAttribute("for", "baseEnergy");
+                document.getElementById("basePrice").textContent = "0 kWh";
+                document.getElementById("basePrice").id = "baseEnergy";
+                setPriceFlag = true;
+                break;
+            case "energy":
+                resetCalculator();
+                document.querySelector('label[for="fullpriceInput"]').textContent = "Estimated Energy:";
+                document.querySelector('label[for="fullpriceInput"]').setAttribute("for", "energyInput");
+                document.getElementById('fullpriceInput').value = "";
+                document.getElementById('fullpriceInput').id = "energyInput";
+
+
+                document.querySelector('label[for="baseEnergy"]').textContent = "Base Price:";
+                document.querySelector('label[for="baseEnergy"]').setAttribute("for", "basePrice");
+                document.getElementById("baseEnergy").textContent = "0 €";
+                document.getElementById("baseEnergy").id = "basePrice";
+                //document.querySelector('label[for="basePrice"]').textContent = "Base Price:";
+                setPriceFlag = false;
+                break;
+            default:
+                break;
+        }
+    })
+})
+
+function resetCalculator() {
+    resultEnergyPerCategory = [ ];
+    resultSavingsPerCategory = [ ];
+    finalEnergyPerCategory = [ ];
+    finalResult = 0;
+    finalPrice = 0;
+    finalSavings = 0;
+}
+
 function calculateBasePrice() {
     let baseValue = document.getElementById("energyInput").value;
     let priceValue = document.getElementById("priceInput").value;
 
-
     let result = baseValue * priceValue
+    baseEnergy = baseValue
     basePrice = Number(result).toFixed(2)
+}
+
+function calculateBaseEnergy() {
+    let fullprice = document.getElementById("fullpriceInput").value;
+    let priceValue = document.getElementById("priceInput").value;
+
+
+    let result = fullprice / priceValue
+    basePrice = fullprice
+    baseEnergy = Number(result).toFixed(2)
 }
 
 function calculateFinalPrice() {
@@ -132,11 +194,27 @@ function isNumberKey(evt) {
 
      // Allow numbers (0-9) and decimal point (.)
     if ((charCode >= 48 && charCode <= 57) || /*Numbers 0-9*/ charCode === 46 /*Decimal point (.)*/ ) {
-        updateBasePriceElement(evt);
+
+        if (setPriceFlag) updateBaseEnergyElement(evt);
+        else updateBasePriceElement(evt);
+
         return;
     }
 
+    if (setPriceFlag) updateBaseEnergyElement(evt);
+    else updateBasePriceElement(evt);
+
     evt.preventDefault();
+}
+
+function updateBaseEnergyElement(evt) {
+    let baseFullPrice = document.getElementById("fullpriceInput").value;
+    baseFullPrice += evt.key;
+    let basePrice = document.getElementById("priceInput").value;
+    let result = Number(baseFullPrice / basePrice).toFixed(2)
+
+    let basePriceElement = document.getElementById("baseEnergy")
+    basePriceElement.innerHTML = result + "kWh";
 }
 
 function updateBasePriceElement(evt) {
@@ -161,9 +239,7 @@ function divideEnergyPerCategory() {
     ]
 
     const result = categories.map(category => {
-        let baseValue = document.getElementById("energyInput").value;
-
-        const amount = baseValue * category.percentage / 100;
+        const amount = baseEnergy * category.percentage / 100;
         return { name: category.name, amount: amount };
     });
 
@@ -229,17 +305,6 @@ function updateFinalSavings() {
     finalSavings = Number(result).toFixed(2)
 }
 
-function calculateSavingPercentage() {
-
-    let baseValue = document.getElementById("energyInput").value;
-
-    let finalAmountPercentage = (finalResult * 100) / baseValue
-
-    let result = 100 - finalAmountPercentage
-
-    finalPercentage = Number(result).toFixed(2)
-}
-
 function updateResultElement() {
     let resultElement = document.getElementById("showResultElement")
 
@@ -249,9 +314,50 @@ function updateResultElement() {
 
 }
 
+function drawPieChart(data) {
+    const labels = data.map(item => item.name);
+    const amounts = data.map(item => item.amount);
+
+    const ctx = document.getElementById('myChart').getContext('2d');
+
+    // Check if a chart instance already exists
+    if (typeof myChart !== 'undefined') {
+      myChart.destroy(); // Destroy the existing chart instance
+    }
+
+    myChart = new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: labels,
+        datasets: [{
+          data: amounts,
+          backgroundColor: [
+            '#FF6384',
+            '#36A2EB',
+            '#FFCE56',
+            '#33FF99',
+            '#FF9900'
+          ],
+          hoverBackgroundColor: [
+            '#FF6384',
+            '#36A2EB',
+            '#FFCE56',
+            '#33FF99',
+            '#FF9900'
+          ]
+        }]
+      }
+    });
+  }
+
+
 
 
 function calculatorSequence() {
+
+    if (setPriceFlag) calculateBaseEnergy();
+    else calculateBasePrice();
+
     //console.log("Starting....")
     divideEnergyPerCategory();
     //WORKING
@@ -273,10 +379,6 @@ function calculatorSequence() {
     //WORKING
     //console.log(finalSavings)
 
-    calculateBasePrice();
-    //WORKING
-    //console.log(basePrice)
-
     calculateFinalPrice();
     //WORKING
     //console.log(finalPrice)
@@ -285,11 +387,7 @@ function calculatorSequence() {
     //WORKING
     //console.log(savedPrice)
 
-
-    calculateSavingPercentage();
-    //WORKING
-    //console.log(finalPercentage)
-    //console.log("End")
-
     updateResultElement();
+
+    //drawPieChart(finalEnergyPerCategory);
 }

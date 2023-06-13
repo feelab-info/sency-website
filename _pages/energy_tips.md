@@ -9,7 +9,6 @@ nav: true
 <script async src="{{ base.url | prepend: site.url }}/assets/js/search.js"></script>
 <script async src="{{ base.url | prepend: site.url }}/assets/js/calculator.js"></script>
 
-
 #### Current energy saving tips
 
 <input type="text" onkeyup="searchFunction()" class="form-control" id="mySearch" placeholder="Search for tips...">
@@ -48,11 +47,16 @@ nav: true
 <div style="display:block; height:auto;">
     <div style="display:flex;">
         <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; width: 50%">
-            <label for="energyInput" style="margin-top:0.5rem; margin-bottom:0 !important;"> Estimated Energy (kWh):</label>
+            <label>Input Type: </label>
+            <div class="inputField1_1">
+                    <div>Euro (€):<input class="inputType" type="radio" name="option" value="euro"></div>
+                    <div>Energy (kWh):<input class="inputType" type="radio" name="option" value="energy" checked></div>
+            </div>
+            <label for="energyInput" style="margin-top:0.5rem; margin-bottom:0 !important;"> Estimated Energy:</label>
             <input id="energyInput" type="text" onkeypress="isNumberKey(event)">
             <label for="priceInput" style="margin-top:0.5rem; margin-bottom:0 !important;"> Price (€/kWh):</label>
             <input id="priceInput" type="text" value="0.16" onkeypress="isNumberKey(event)">
-            <label style="margin-top:0.5rem; margin-bottom:0 !important;">Base Price:</label>
+            <label for="basePrice" style="margin-top:0.5rem; margin-bottom:0 !important;">Base Price:</label>
             <p id="basePrice">0 €</p>
         </div>
         <div style="display:flex; flex-direction:column; align-items:center; width: 50%">
@@ -82,4 +86,8 @@ nav: true
 <hr>
 <div style="display:flex; justify-content:center; align-items:center;">
 <p id="showResultElement"> Final Result: 0 kWh (0 €) | Savings: 0 kWh (0 €) </p>
+</div>
+
+<div>
+    <canvas id="myChart"></canvas>
 </div>
