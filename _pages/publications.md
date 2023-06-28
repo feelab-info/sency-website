@@ -5,7 +5,7 @@ title: Publications
 description: Project related publications and theses by categories in reversed chronological order.
 years: [2023, 2022, 2021]
 nav: true
-yearst: [2022,2020]
+yearst: [2023,2022,2020]
 ---
 
 <div class="publications">

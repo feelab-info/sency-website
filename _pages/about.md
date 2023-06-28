@@ -24,6 +24,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <div class='specialParagraph' markdown='1'>
+
 **Industrial kitchens (IKs)** use between 5 and 7 times more energy per square meter than other commercial building spaces like office buildings and retail stores [[1](https://google.com)]. Furthermore, studies indicate that in the EU, UK, and the US, **30% of the energy consumed in industrial kitchens is used in purely commercial establishments**, e.g., restaurants and snack-bars [[2]()].
 
 Despite the size and ubiquity of this industry, **the role of IKs in the global quest for sustainable energy systems is still widely under-explored**.

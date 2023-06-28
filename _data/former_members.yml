@@ -1,3 +1,18 @@
+
+- name: Ricardo Martins
+  degrees: MSc
+  image: team_Ricardo-Martins.jpg
+  #altimage: 
+  position: MSc Student
+  email: r.pedrasmartins (@) gmail.com
+  #scholar: oIRnXSkAAAAJ
+  website: https://www.linkedin.com/in/pedrasmartins
+  #orcid: "orcid.org/0000-0002-3108-8880" 
+  description: Ricardo Martins has a Master Degree in Mechanical Engineering from Instituto Superior Técnico, University of Lisbon, Portugal. 
+              He worked for 6 years as a structural engineer of steel structures where among other developments he gained domain knowledge about 
+              instrumentation systems from application to analysis. Since 2020 he is a student of the Master Degree in Data Science from IST with this final 
+              thesis focusing in developing data-driven simulations of electricity and water demand.
+
 - name: Catarina Rolim
   degrees: PhD
   image: team_Catarina-Rolim.jpg
