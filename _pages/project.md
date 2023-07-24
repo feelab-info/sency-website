@@ -85,7 +85,7 @@ The Instituto de Engenharia de Sistemas e Computadores, Investigação e Desenvo
 </div>
 </div>
 
-### Funding
+## Funding
 
 <div class="clearfix" markdown="1">
 
