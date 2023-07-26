@@ -85,7 +85,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio 2222  # your blog must have a name for it to show up in the nav bar
-blog_name: 
+blog_name:
 blog_description: a simple whitespace theme for academics or not
 permalink: /blog/:year/:title/
 
@@ -162,7 +162,7 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path:            "assets/**/*.*"
+      path: "assets/**/*.*"
     values:
       sitemap:         false
 
@@ -174,7 +174,7 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag

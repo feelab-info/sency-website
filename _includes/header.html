@@ -3,7 +3,7 @@
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
-      
+
       {% if page.title != "Home" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
        <!--{% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}-->
@@ -45,40 +45,69 @@
             </a>
           </li>
           {% endif %}
-          <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
-          {% for p in sorted_pages %}
-          {% if p.nav and p.autogen == nil %}
-          {% if p.dropdown %}
-          <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ p.title }}
-                {% if page.title == p.title %}
-                <span class="sr-only">(current)</span>
+
+
+          <!-- Custom order of Pages (Without Home Page) -->
+          <!-- Home Page always first, I can change that though -->
+          {% assign custom_order = "News,Events,Project,Team,Publications,Resources,Tips" | split: ',' %}
+
+          <!-- Assign the suboptions for the dropdown menus -->
+          {% assign events_list = "Global July 2023,Special Session" | split: ',' %}
+
+          {% for title in custom_order %}
+            <!-- Create dropdown menus -->
+            <!-- Just repeat the code for another main section if needed -->
+            {% if title == 'Events' %}
+              <!-- Create "Events" dropdown with suboptions -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Events
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="eventsDropdown">
+                  {% for event_title in events_list %}
+                    {% assign event_page = site.pages | where: "title", event_title | first %}
+                    {% if event_page %}
+                      <a class="dropdown-item" href="{{ event_page.url | relative_url }}">{{ event_page.title }}</a>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </li>
+            {% else %}
+              {% assign current_page = site.pages | where: "title", title | first %}
+              {% if current_page.nav and current_page.autogen == nil %}
+                {% if current_page.dropdown %}
+                  <li class="nav-item dropdown {% if page.title == current_page.title %}active{% endif %}">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ title }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {{ current_page.title }}
+                      {% if page.title == current_page.title %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown{{ title }}">
+                      {% for child in current_page.children %}
+                        {% if child.title == 'divider' %}
+                          <div class="dropdown-divider"></div>
+                        {% else %}
+                          <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </li>
+                {% else %}
+                  <li class="nav-item {% if page.title == current_page.title %}active{% endif %}">
+                    <a class="nav-link" href="{{ current_page.url | relative_url }}">
+                      {{ current_page.title }}
+                      {% if page.title == current_page.title %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
+                  </li>
                 {% endif %}
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              {% for child in p.children %}
-              {% if child.title == 'divider' %}
-                <div class="dropdown-divider"></div>
-              {% else %}
-                <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
               {% endif %}
-              {% endfor %}
-              </div>
-          </li>
-          {% else %}
-          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-              <a class="nav-link" href="{{ p.url | relative_url }}">
-                {{ p.title }}
-                {% if page.title == p.title %}
-                <span class="sr-only">(current)</span>
-                {% endif %}
-              </a>
-          </li>
-          {% endif %}
-          {% endif %}
+            {% endif %}
           {% endfor %}
+
+
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">
@@ -92,19 +121,19 @@
       </div>
     </div>
   </nav>
-      
-  <script type="text/javascript"> 
-      function googleTranslateElementInit() { 
+
+  <script type="text/javascript">
+      function googleTranslateElementInit() {
           new google.translate.TranslateElement(
-              {pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+              {pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
               'google_translate_element'
-          ); 
-      } 
-  </script> 
+          );
+      }
+  </script>
   <style type="text/css">
     body{
-      top: 0px !important; 
-      position: static !important; 
+      top: 0px !important;
+      position: static !important;
     }
     .goog-te-banner-frame{
       display:none !important
@@ -113,6 +142,6 @@
       margin-left:20px;
     }
   </style>
-    
+
   <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </header>
