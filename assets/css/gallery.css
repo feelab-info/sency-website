@@ -20,7 +20,6 @@
   cursor: pointer;
 }
 
-/* Add fullscreen preview styles */
 .fullscreen-preview {
   position: fixed;
   top: 0;
@@ -53,19 +52,18 @@
   right: 10px;
   font-size: 30px;
   color: #fff;
-  background-color: #000; /* Black background */
+  background-color: #000;
   cursor: pointer;
   z-index: 1;
-  width: 50px; /* Adjust the width to make it square */
-  height: 50px; /* Adjust the height to make it square */
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: none;
-  border-radius: 50%; /* Rounded corners */
+  border-radius: 50%;
 }
 
-/* Add styles for the navigation buttons */
 .nav-button {
   position: absolute;
   top: 50%;
@@ -75,13 +73,13 @@
   background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
   z-index: 1;
-  width: 40px; /* Adjust the width to your preference */
-  height: 40px; /* Adjust the height to your preference */
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: none;
-  border-radius: 50%; /* Rounded corners */
+  border-radius: 50%;
 }
 
 .left-button {
@@ -103,10 +101,9 @@
   background-color: rgba(0, 0, 0, 0.7);
   padding: 5px 10px;
   border-radius: 5px;
-  display: none; /* Initially hide the subtitle */
+  display: none;
 }
 
-/* Update the .show-fullscreen class to show the subtitle */
 .show-fullscreen .subtitle {
   display: block;
 }
