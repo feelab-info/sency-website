@@ -18,10 +18,10 @@ A video of the presentation will also be made available soon.
 This international confererence gathered together more than 300 participants from academia and industry.
 Learn more about this very interesting conference at the <a href="https://2023.ieee-indin.org/index.php" target="_blank"> IEEE INDIN 2023 website </a>.
 
+<!-- Change the folder inbetween the '' -->
 **Photos**
 <div class="gallery">
   {% for image in site.static_files %}
-    <!-- Change the folder inbetween the '' -->
     {% if image.path contains '/assets/post_img/announcement_11/INDIN/' %}
       <div class="gallery-item">
         <img src="{{ image.path | relative_url }}" alt="{{ image.name }}" onclick="showFullscreen(this)">
@@ -38,10 +38,11 @@ On July 16 and July 17, Vasco Andrade and Márcio Romero presented the nexIK pro
 
 More precisely, Vasco presented the results of his research in forecasting the consumption of electric appliances in industrial kitchens. Whereas, Márcio presented the gobal vision of the nexIK project.
 
+
+<!-- Change the folder inbetween the '' -->
 **Photos**
 <div class="gallery">
   {% for image in site.static_files %}
-    <!-- Change the folder inbetween the '' -->
     {% if image.path contains '/assets/post_img/announcement_11/LARSyS/' %}
       <div class="gallery-item">
         <img src="{{ image.path | relative_url }}" alt="{{ image.name }}" onclick="showFullscreen(this)">
@@ -63,12 +64,18 @@ More details about this session are available on a dedicated page: ([nexIK @ Glo
 <!-- Can re-use the code, just change the folder -->
 
 
-
 <div class="fullscreen-preview">
   <button type="button" class="close-button" onclick="hideFullscreen()">
     <span aria-hidden="true">&times;</span>
   </button>
+  <button type="button" class="nav-button left-button" onclick="navigateFullscreen(-1)">
+    &lt;
+  </button>
   <img src="" alt="">
+  <p class="subtitle"></p> <!-- Element to display the subtitle -->
+  <button type="button" class="nav-button right-button" onclick="navigateFullscreen(1)">
+    &gt;
+  </button>
 </div>
 
 <!-- End of the Gallery with full-screen preview -->

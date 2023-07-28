@@ -1,69 +1,112 @@
-/* Add gallery styles */
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
 
-  .gallery-item {
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-    position: relative;
-  }
+.gallery-item {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+}
 
-  .gallery-item img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5%;
-    cursor: pointer;
-  }
+.gallery-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+  cursor: pointer;
+}
 
-  /* Add fullscreen preview styles */
-  .fullscreen-preview {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s;
-    position: fixed;
+/* Add fullscreen preview styles */
+.fullscreen-preview {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
 
-  }
+.fullscreen-preview img {
+  max-width: 90%;
+  max-height: 90%;
+}
 
-  .fullscreen-preview img {
-    max-width: 90%;
-    max-height: 90%;
-  }
+.show-fullscreen {
+  opacity: 1;
+  pointer-events: auto;
+}
 
-  .show-fullscreen {
-    opacity: 1;
-    pointer-events: auto;
-  }
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #000; /* Black background */
+  cursor: pointer;
+  z-index: 1;
+  width: 50px; /* Adjust the width to make it square */
+  height: 50px; /* Adjust the height to make it square */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%; /* Rounded corners */
+}
 
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 30px;
-    color: #fff;
-    background-color: #000; /* Black background */
-    cursor: pointer;
-    z-index: 1;
-    width: 50px; /* Adjust the width to make it square */
-    height: 50px; /* Adjust the height to make it square */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 50%; /* Rounded corners */
-  }
+/* Add styles for the navigation buttons */
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 1;
+  width: 40px; /* Adjust the width to your preference */
+  height: 40px; /* Adjust the height to your preference */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%; /* Rounded corners */
+}
+
+.left-button {
+  left: 10px;
+}
+
+.right-button {
+  right: 10px;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none; /* Initially hide the subtitle */
+}
+
+/* Update the .show-fullscreen class to show the subtitle */
+.show-fullscreen .subtitle {
+  display: block;
+}
