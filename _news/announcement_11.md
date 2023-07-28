@@ -32,6 +32,30 @@ More details about this session are available on a dedicated page: ([nexIK @ Glo
 
 Videos of this event will be made available soon.
 
+<!-- Code for the gallery -->
+
+<!-- Can re-use the code, just change the folder -->
+
+<div class="gallery">
+  {% for image in site.static_files %}
+    <!-- Change the folder inbetween the '' -->
+    {% if image.path contains '/assets/post_img/announcement_11/' %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.name }}" onclick="showFullscreen(this)">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="fullscreen-preview">
+  <button type="button" class="close-button" onclick="hideFullscreen()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <img src="" alt="">
+</div>
+
+<!-- End of the Gallery with full-screen preview -->
+
 <br/>
 <div style="width:100%; text-align:center">
 <a href="#" onclick="window.history.back()">Back</a>
