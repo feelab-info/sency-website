@@ -18,11 +18,39 @@ A video of the presentation will also be made available soon.
 This international confererence gathered together more than 300 participants from academia and industry.
 Learn more about this very interesting conference at the <a href="https://2023.ieee-indin.org/index.php" target="_blank"> IEEE INDIN 2023 website </a>.
 
+**Photos**
+<div class="gallery">
+  {% for image in site.static_files %}
+    <!-- Change the folder inbetween the '' -->
+    {% if image.path contains '/assets/post_img/announcement_11/INDIN/' %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.name }}" onclick="showFullscreen(this)">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<br/>
+
 ## @ LARSyS 2023  - Lisbon, Portugal ##
 
 On July 16 and July 17, Vasco Andrade and Márcio Romero presented the nexIK project at the Annual event of the Associate Laboratory of Robotics and Engineering Systems ([LARSyS](https://larsys.pt)).
 
 More precisely, Vasco presented the results of his research in forecasting the consumption of electric appliances in industrial kitchens. Whereas, Márcio presented the gobal vision of the nexIK project.
+
+**Photos**
+<div class="gallery">
+  {% for image in site.static_files %}
+    <!-- Change the folder inbetween the '' -->
+    {% if image.path contains '/assets/post_img/announcement_11/LARSyS/' %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.name }}" onclick="showFullscreen(this)">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<br/>
 
 ## @ Global July 2023 - Minas Gerais, Brazil ##
 
@@ -30,22 +58,11 @@ Finally, on July 21, Hugo Morais hosted a session devoted to the nexIK project a
 
 More details about this session are available on a dedicated page: ([nexIK @ Global July 2023](/global_july_2023))
 
-Videos of this event will be made available soon.
-
 <!-- Code for the gallery -->
 
 <!-- Can re-use the code, just change the folder -->
 
-<div class="gallery">
-  {% for image in site.static_files %}
-    <!-- Change the folder inbetween the '' -->
-    {% if image.path contains '/assets/post_img/announcement_11/' %}
-      <div class="gallery-item">
-        <img src="{{ image.path | relative_url }}" alt="{{ image.name }}" onclick="showFullscreen(this)">
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+
 
 <div class="fullscreen-preview">
   <button type="button" class="close-button" onclick="hideFullscreen()">
