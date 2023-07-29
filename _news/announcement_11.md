@@ -66,7 +66,7 @@ More details about this session are available on a dedicated page: ([nexIK @ Glo
 
 <div class="fullscreen-preview">
   <button type="button" class="close-button" onclick="hideFullscreen()">
-    <span aria-hidden="true">&times;</span>
+    &times;
   </button>
   <button type="button" class="nav-button left-button" onclick="navigateFullscreen(-1)">
     &lt;
