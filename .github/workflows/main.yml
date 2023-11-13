@@ -37,7 +37,7 @@ jobs:
           username: ${{ secrets.IST_USERNAME }}
           server: ${{ secrets.IST_SERVER }}
           port: 22
-          local_path: './_site'
-          remote_path: '/afs/.ist.utl.pt/groups/alamo/web/'
+          local_path: './_site/'
+          remote_path: '/afs/.ist.utl.pt/groups/alamo/'
           sftp_only: true
           password: ${{ secrets.IST_HOSTING }}
