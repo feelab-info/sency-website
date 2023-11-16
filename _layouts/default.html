@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 
-  <head>
-    {% if page.redirect %}<meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />{% endif %}
-    {% include head.html %}
-  </head>
+<head>
+  {% if page.redirect %}
+  <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />{% endif %}
+  {% include head.html %}
+</head>
 
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+<body
+  class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    <!-- Header -->
+  <!-- Header -->
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <!-- Content -->
+  <!-- Under Construction Page -->
+  <!-- Comment this div to show the contents -->
+  <div class="under-construction">
+    <img src="/assets/img/logo-color.png" alt="Under Construction Image">
+    <p>This will be the future home of the ALAMO Project.</p>
+    <p>The page is currently under construction. Stay tuned for updates!</p>
+  </div>
 
-    <div class="container mt-5">
-      {{ content }}
-    </div>
+  <!-- Content -->
 
-    <!-- Footer -->
+  <div class="container mt-5">
+    {{ content }}
+  </div>
 
-    {% include footer.html %}
+  <!-- Footer -->
 
-  </body>
+  {% include footer.html %}
 
-  {% include scripts/jquery.html %}
-  {% include scripts/bootstrap.html %}
-  {% include scripts/mansory.html %}
-  {% include scripts/misc.html %}
-  {% include scripts/mathjax.html %}
-  {% include scripts/analytics.html %}
+</body>
+
+{% include scripts/jquery.html %}
+{% include scripts/bootstrap.html %}
+{% include scripts/mansory.html %}
+{% include scripts/misc.html %}
+{% include scripts/mathjax.html %}
+{% include scripts/analytics.html %}
 
 </html>
