@@ -4,7 +4,7 @@ permalink: /tips/
 title: Tips
 description: Tips to reduce energy usage
 
-nav: true
+nav: false
 ---
 <script async src="{{ base.url | prepend: site.url }}/assets/js/search.js"></script>
 <script async src="{{ base.url | prepend: site.url }}/assets/js/calculator.js"></script>

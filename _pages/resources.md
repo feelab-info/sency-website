@@ -4,7 +4,7 @@ permalink: /resources/
 title: Resources
 #description: Materials for courses you taught. Replace this text with your description.
 description: Free stuff for the community
-nav: true
+nav: false
 ---
 
 ### Datasets

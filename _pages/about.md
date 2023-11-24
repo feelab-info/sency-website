@@ -3,7 +3,7 @@ layout: about
 title: Home
 permalink: /
 #description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-description: Exploring the Human-Water-Energy Nexus in Industrial Kitchens
+description:
 
 profile:
   align: right
@@ -25,18 +25,9 @@ social: true  # includes social icons at the bottom of the page
 
 <div class='specialParagraph' markdown='1'>
 
-**Industrial kitchens (IKs)** use between 5 and 7 times more energy per square meter than other commercial building spaces like office buildings and retail stores [[1](https://google.com)]. Furthermore, studies indicate that in the EU, UK, and the US, **30% of the energy consumed in industrial kitchens is used in purely commercial establishments**, e.g., restaurants and snack-bars [[2]()].
+Dr. Anuradha Annaswamy received her Ph.D. in Electrical Engineering from Yale University in 1985. She has been a member of the faculty at Yale, Boston University, and MIT where currently she is the director of the Active-Adaptive Control Laboratory and a Senior Research Scientist in the Department of Mechanical Engineering. Her research interests pertain to adaptive control theory and applications to aerospace, automotive, and propulsion systems, cyber- physical systems science, and CPS applications to Smart Grids, Smart Cities, and Smart Infrastructures. She is the author of a hundred journal publications and numerous conference publications, co-author of a graduate textbook on adaptive control (2004), and co-editor of several reports including “Systems & Control for the future of humanity, research agenda: Current and future roles, impact and grand challenges,” (Elsevier) “IEEE Vision for Smart Grid Control: 2030 and Beyond,” (IEEE Xplore) and Impact of Control Technology, (ieeecss.org/main/IoCT-report, ieeecss.org/general/IoCT2-report).
 
-Despite the size and ubiquity of this industry, **the role of IKs in the global quest for sustainable energy systems is still widely under-explored**.
-
-The **nexIK** project will address this important topic, **proposing a new methodology to quantify the interactions between Water, Energy and Food in IKs**. Commonly known as the Water-Energy-Food Nexus (WEFN), the developed methodology will provide a holistic approach to **assess the impact of IK activity on the consumption of electricity and water**.
-
-This project builds upon ongoing research in two associate laboratories from Portuguese Foundation for Science and Technology [(FCT)](https://www.fct.pt/), namely [LARSyS](https://www.larsys.pt) and [INESC-ID](https://www.inesc-id.pt/) both of which have a strong focus on sustainable energy systems and distributed energy resources management research.
-
-The **nexIK** project (EXPL/CCI-COM/1234/2021) is funded by the FCP, I.P. /MCTES through national funds (PIDDAC).
-
-
-<strong style="color:#014f82"> Participate in the nexIK project by providing information about your Commercial / Industrial Kitchen. You can do that by filling out this survey: <a href="http://shorturl.at/hPZ49" target="_blank">http://shorturl.at/hPZ49</a><strong>
+Vineet Nair received his MPhil in Energy Technologies from the University of Cambridge. He is currently a Ph.D. student in Computational Science and Engineering at MIT, where he is supervised by Dr. Annaswamy. Vineet has considerable research experience in applying distributed optimization, game theory, and control systems tools to model power grids and distributed energy resources (DERs).
 
 
 </div>

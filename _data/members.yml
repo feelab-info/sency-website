@@ -13,7 +13,7 @@
               Since then, he is at ITI/LARSyS, where he leads the Further Energy and Environment research Laboratory (FEELab). 
               Since 2019 he is an Assistant Researcher at Instituto Superior Técnico (IST).
               
-              Lucas’s research applies data science, machine learning, and human-computer interaction techniques
+              Lucas's research applies data science, machine learning, and human-computer interaction techniques
               to structured and unstructured data streams to address real-world problems focusing on the Sustainable Development Goals (SDGs). 
               His current research focuses on future energy systems, and sustainable built environments (SDGs 7, 11, 12, 13), and 
               typically involves the real-world deployment and evaluation of non-intrusive monitoring technologies and intelligent software systems.
@@ -28,76 +28,3 @@
   website: https://sites.google.com/tecnico.ulisboa.pt/hmorais/
   orcid: "orcid.org/0000-0001-5906-4744"
   #description:
-  
-- name: Rui Castro
-  degrees: PhD
-  image: team_member.png
-  #altimage: 
-  #position:
-  email: rcastro (at) tecnico.ulisboa.pt
-  scholar: oIRnXSkAAAAJ
-  website: https://sites.google.com/site/ruigameirocastro/
-  orcid: "orcid.org/0000-0002-3108-8880" 
-  #description:
-
-- name: Gonçalo Morais
-  degrees: BSc
-  image: team_Goncalo-Morais.png
-  #altimage: 
-  position: Research Assistant and MSc Student
-  email: goncalo.de.morais (at) tecnico.ulisboa.pt
-  #scholar: oIRnXSkAAAAJ
-  website: https://www.linkedin.com/in/goncalogmorais/
-  #orcid: "orcid.org/0000-0002-3108-8880" 
-  description: Gonçalo Morais is a final year student of MSc in Electrical and Computer Engineering, in the field of control, robotics and artificial intelligence, 
-              from Instituto Superior Técnico, University of Lisbon, Portugal. In nexIK, the tasks are focused on resource monitoring, implementation and maintenance 
-              of the data collection systems. Ongoing work involves updating the monitoring systems and disaggregating water consumption.
-
-- name: Ana Oliveira
-  degrees: BSc
-  image: team_Ana-Oliveira.jpeg
-  #altimage: 
-  position: Research Assistant and MSc Student
-  email: ana.g.oliveira (at) tecnico.ulisboa.pt
-  #scholar: oIRnXSkAAAAJ
-  #website: https://sites.google.com/site/ruigameirocastro/
-  #orcid: "orcid.org/0000-0002-3108-8880" 
-  description: Ana Oliveira is a final year student of MSc in Electrical and Computer Engineering, in the field of energy, from Instituto Superior Técnico, 
-              University of Lisbon, Portugal. Her final thesis is focused on modeling and optimization of nexIK load' flexibilities. 
-              The tasks also involve reconciling flexibilities with production and storage of energy.
-
-- name: Miriam Ribeiro
-  degrees: BSc
-  image: team_Miriam-Ribeiro.jpeg
-  #altimage: 
-  position: Resarch Assistant
-  email: miriamribeiroalves (at) usp.br
-  #scholar: oIRnXSkAAAAJ
-  website: https://www.linkedin.com/in/miriamribeir/
-  #orcid: "orcid.org/0000-0002-3108-8880" 
-  description: Miriam Ribeiro is a bachelor student in Environmental Engineering at Polytechnic School of the University of São Paulo in Brazil and an exchange student at Instituto Superior Técnico, University of Lisbon in Portugal. 
-              Her work in this project is to develop and validate a taxonomy related to industrial kitchens using data provided by restaurants located throughout Lisbon.
-
-- name: Toni Garcês
-  #degrees: BSc Student
-  image: team_member.png
-  #altimage: 
-  position: Research Intern
-  email: 2081620 (at) student.uma.pt
-  #scholar: oIRnXSkAAAAJ
-  #website: https://sites.google.com/site/ruigameirocastro/
-  #orcid: "orcid.org/0000-0002-3108-8880" 
-  description: Toni Garcês is a bachelor student in Informatics Engineering at University of Madeira. His role is the project will be the design and development of
-               user interfaces for the water-energy nexus in Industrial Kitchens.
-
-- name: Vasco Andrade
-  degrees: BSc
-  image: team_Vasco-Andrade.jpg
-  #altimage: 
-  position: Research Assistant
-  email: vasco.andrade (at) tecnico.ulisboa.pt
-  #scholar: oIRnXSkAAAAJ
-  #website: https://sites.google.com/site/ruigameirocastro/
-  #orcid: "orcid.org/0000-0002-3108-8880" 
-  description: Vasco Andrade is a final year student of MSc in Electrical and Computer Engineering, in the field of energy, from Instituto Superior Técnico, University of Lisbon, Portugal. 
-              His work in this project is focused on the forecast of electric load and consumption. The ongoing work consists in evaluating forecast models accuracy for predictions in IK.

@@ -3,7 +3,7 @@ layout: page
 permalink: /special_session/
 title: Special Session
 description: at IEEE International Conference on Industrial Informatics, INDIN’23
-nav: true
+nav: false
 ---
 
 #### Renewable Energy Sources and Distributed Energy Resources in the Water-Energy-Food Nexus: Industry Applications

@@ -3,7 +3,7 @@ layout: page
 permalink: /global_july_2023/
 title: Global July 2023
 description: The results of the nexIK project were presented in a dedicated session at the Global July 2023 event in Minas Gerais, Brazil.
-nav: true
+nav: false
 ---
 
 The Global July is a yearly event hosted by the Federal University of Juiz de Fora (UFJF) in Minas Gerais, Brazil.

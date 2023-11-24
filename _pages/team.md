@@ -42,7 +42,7 @@ nav: true
 <hr>
 {% endfor %}
 
-#### Former Members
+<!-- #### Former Members -->
 
 
 {% for person in site.data.former_members %}

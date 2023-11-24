@@ -4,7 +4,7 @@ permalink: /project/
 title: Project
 #description: Materials for courses you taught. Replace this text with your description.
 description: The nexIK project in a glance
-nav: true
+nav: false
 
 logo_1: larsys.png
 logo_2: inesc_id.png

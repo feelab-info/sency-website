@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Project related publications and theses by categories in reversed chronological order.
 years: [2023, 2022, 2021]
-nav: true
+nav: false
 yearst: [2023,2022,2020]
 ---
 
