@@ -9,10 +9,9 @@ profile:
   align: right
   #image: prof_pic.jpg
   #image: untitled.png
-  #image: nexik_logo.png
-  image: nexik_logo_2.png
-  image_w: logo_w.png
-  image_b: logo_b.png
+  image: alamo-logo.png
+  image_w: alamo-logo.png
+  image_b: alamo-logo.png
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
@@ -20,7 +19,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 <div class='specialParagraph' markdown='1'>
