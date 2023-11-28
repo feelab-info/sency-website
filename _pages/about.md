@@ -3,15 +3,15 @@ layout: about
 title: Home
 permalink: /
 #description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-description:
+description: Accurate federated Learning with uncertainty quantification for DER forecasting Applied to sMart Grids planning and Operation
 
 profile:
   align: right
   #image: prof_pic.jpg
   #image: untitled.png
-  image: alamo-logo.png
-  image_w: alamo-logo.png
-  image_b: alamo-logo.png
+  image: logo-blue-no-background.png
+  image_w: logo-blue-no-background.png
+  image_b: logo-white-no-background.png
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
@@ -24,9 +24,10 @@ social: false  # includes social icons at the bottom of the page
 
 <div class='specialParagraph' markdown='1'>
 
-Dr. Anuradha Annaswamy received her Ph.D. in Electrical Engineering from Yale University in 1985. She has been a member of the faculty at Yale, Boston University, and MIT where currently she is the director of the Active-Adaptive Control Laboratory and a Senior Research Scientist in the Department of Mechanical Engineering. Her research interests pertain to adaptive control theory and applications to aerospace, automotive, and propulsion systems, cyber- physical systems science, and CPS applications to Smart Grids, Smart Cities, and Smart Infrastructures. She is the author of a hundred journal publications and numerous conference publications, co-author of a graduate textbook on adaptive control (2004), and co-editor of several reports including “Systems & Control for the future of humanity, research agenda: Current and future roles, impact and grand challenges,” (Elsevier) “IEEE Vision for Smart Grid Control: 2030 and Beyond,” (IEEE Xplore) and Impact of Control Technology, (ieeecss.org/main/IoCT-report, ieeecss.org/general/IoCT2-report).
+The ALAMO project aims to address the challenges posed by the increasing integration of Distributed Energy Resources (DERs) into power grids while ensuring consumers’ privacy and accounting for uncertainties in forecasting models. The primary objectives include the development of accurate forecasting algorithms using Federated Learning, quantifying epistemic and aleatoric uncertainty in these models, and integrating them into operational planning tools for Distribution System Operators (DSOs).
 
-Vineet Nair received his MPhil in Energy Technologies from the University of Cambridge. He is currently a Ph.D. student in Computational Science and Engineering at MIT, where he is supervised by Dr. Annaswamy. Vineet has considerable research experience in applying distributed optimization, game theory, and control systems tools to model power grids and distributed energy resources (DERs).
+Current planning tools lack privacy considerations and do not adequately account for uncertainties, rendering them obsolete in the context of growing renewable energy sources (RES) connected to distribution systems. This project also emphasizes the importance of coordination between Transmission System Operators (TSOs) and DSOs, especially in services like frequency regulation and congestion management. Additionally, it addresses the incorporation of uncertainties in Peer-to-Peer (P2P) energy markets, which are becoming increasingly prevalent.
 
+The research plan comprises five critical tasks involving teams from MIT in the USA and ITI/LARSyS and INESC-ID in Portugal. These tasks encompass dataset preparation, Federated Learning algorithm development, uncertainty quantification, application of forecasting in grid operational planning, TSO-DSO coordination, and P2P trading. The project aims to demonstrate the effectiveness of the developed models in both virtual and physical testbeds, even with limited data availability due to privacy constraints.
 
 </div>
