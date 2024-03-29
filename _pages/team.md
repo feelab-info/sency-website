@@ -16,8 +16,12 @@ nav: true
     <img style="border:1px solid; float: left; width: 33%; margin-right: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
-        {{person.position}} <br>
-        <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
+        {{person.position}}
+        <i class="fa fa-flag"></i> <em>{{person.country}}</em> <br>
+        <!--<i class="fa fa-envelope"></i> <em>{{person.partner}}</em> <br>-->
+        {% if person.email %}
+          <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
+        {% endif %}
         {% if person.twitter %}
           <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
         {% endif %}

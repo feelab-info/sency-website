@@ -1,5 +1,6 @@
 - name: Lucas Pereira
   degrees: PhD
+  country: Portugal
   image: team_Lucas-Pereira.jpeg
   altimage: 
   #position: 
@@ -21,6 +22,7 @@
 - name: Hugo Morais
   degrees: PhD
   image: team_Hugo-Morais.jpg
+  country: Portugal
   #altimage: 
   #position: Postdoc
   email: hugo.morais (at) tecnico.ulisboa.pt
@@ -35,9 +37,10 @@
 - name: Anuradha Annaswamy
   degrees: PhD
   image: team_member.png
+  country: USA
   #altimage: 
   #position: Postdoc
-  email: haanna@mit.edu
+  email: haanna (at) )mit.edu
   scholar: hyLglJ4AAAAJ
   website: https://meche.mit.edu/people/faculty/aanna%40mit.edu
   orcid: "orcid.org/00000-0002-4354-0459"
@@ -50,10 +53,11 @@
 
 - name: Vineet Nair
   degrees: MSc
+  country: USA
   image: team_member.png
   #altimage: 
   #position: Postdoc
-  email: jvineet9@mit.edu 
+  email: jvineet9 (at) mit.edu 
   scholar: WLWSdJ0AAAAJ
   website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
   #orcid: 
@@ -61,3 +65,75 @@
                 He is currently a Ph.D. student in Computational Science and Engineering at MIT, where he is supervised by Dr. Annaswamy. 
               Vineet has considerable research experience in applying distributed optimization, game theory, and control systems tools to model 
               power grids and distributed energy resources (DERs).
+
+- name: Herbert Amezquita
+  degrees: MSc
+  country: Portugal
+  image: team_member.png
+  #altimage: 
+  #position: Postdoc
+  email: herbert.amezquita (at) tecnico.ulisboa.pt
+  #scholar: WLWSdJ0AAAAJ
+  #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
+  #orcid: 
+  #description:
+
+- name: Diogo Monteiro
+  degrees: BsC
+  country: Portugal
+  image: team_member.png
+  #altimage: 
+  #position: Postdoc
+  email: diogo.pinto.monteiro (at) tecnico.ulisboa.pt 
+  #scholar: WLWSdJ0AAAAJ
+  #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
+  #orcid: 
+  #description:
+
+- name: Frederik Apina
+  degrees: BSc
+  country: Portugal
+  image: team_member.png
+  #altimage: 
+  #position: Postdoc
+  #email: jvineet9@mit.edu 
+  #scholar: WLWSdJ0AAAAJ
+  #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
+  #orcid: 
+  #description:
+
+- name: Tomás Glória
+  degrees: Undergrad
+  country: Portugal
+  image: team_member.png
+  #altimage: 
+  #position: Postdoc
+  email: tomasggloria (at) tecnico.ulisboa.pt
+  #scholar: WLWSdJ0AAAAJ
+  #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
+  #orcid: 
+  #description:
+
+- name: Bruno Henrique Dias
+  degrees: PhD
+  country: Brazil
+  image: team_member.png
+  #altimage: 
+  #position: Postdoc
+  email: bruno.dias (at) ufjf.br
+  scholar: _vzwdEUAAAAJ
+  #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
+  #orcid: 
+  #description:
+
+- name: Paulo Ramos
+  degrees: MSc
+  country: Brazil
+  image: team_member.png
+  #altimage: 
+  #position: Postdoc
+  email: paulo.barbosa (at) estudante.ufjf.br
+  scholar: sVM6uysAAAAJ
+  #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
+  #orcid: 
+  #description:
