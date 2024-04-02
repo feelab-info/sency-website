@@ -75,8 +75,9 @@
   email: herbert.amezquita (at) tecnico.ulisboa.pt
   #scholar: WLWSdJ0AAAAJ
   #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
-  #orcid: 
-  #description:
+  orcid: orcid.org/i0000-0002-7264-1427
+  description: Herbert Amezquita received his MSc. in Energy Engineering and Management (with a specialization in Renewable Energy) in 2022 from Instituto Superior Técnico, Portugal. 
+                Currently he is a junior researcher at INESC-ID and his research focuses on renewable energies, data science and forecasting of power production and consumption.
 
 - name: Diogo Monteiro
   degrees: BsC
@@ -87,8 +88,9 @@
   email: diogo.pinto.monteiro (at) tecnico.ulisboa.pt 
   #scholar: WLWSdJ0AAAAJ
   #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
-  #orcid: 
-  #description:
+  orcid: orcid.org/0009-0004-3278-1419
+  description: Diogo Monteiro received his BSc. degree from the Polytechnic of Lisbon in 2021 in the field of Biomedical Engineering. 
+                He is currently graduating from a MSc. degree from the University of Lisbon in Data Science and Engineering. His thesis centers on federated leaning forecasting algorithms applied to distributed energy resources.
 
 - name: Frederik Apina
   degrees: BSc
