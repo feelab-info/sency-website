@@ -69,13 +69,13 @@
 - name: Herbert Amezquita
   degrees: MSc
   country: Portugal
-  image: team_member.png
+  image: team_Herbert-Amezquita.jpg
   #altimage: 
   #position: Postdoc
   email: herbert.amezquita (at) tecnico.ulisboa.pt
   #scholar: WLWSdJ0AAAAJ
   #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
-  orcid: orcid.org/i0000-0002-7264-1427
+  orcid: orcid.org/0000-0002-7264-1427
   description: Herbert Amezquita received his MSc. in Energy Engineering and Management (with a specialization in Renewable Energy) in 2022 from Instituto Superior Técnico, Portugal. 
                 Currently he is a junior researcher at INESC-ID and his research focuses on renewable energies, data science and forecasting of power production and consumption.
 
@@ -95,26 +95,28 @@
 - name: Frederik Apina
   degrees: BSc
   country: Portugal
-  image: team_member.png
+  image: team_Frederik-Apina.jpg
   #altimage: 
   #position: Postdoc
-  #email: jvineet9@mit.edu 
+  email: fred.apina (at) gmail.com 
   #scholar: WLWSdJ0AAAAJ
   #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
   #orcid: 
-  #description:
+  description: Frederick Apina received his BSc in Software Engineering from the University of Dodoma. 
+                He is currently a research engineer at the Further Energy and Environment research Laboratory (FEELab). His research focuses on federated learning forecasting with uncertainty quantification algorithms for distributed energy resources applied to Smart Grids planning and Operation.
 
 - name: Tomás Glória
-  degrees: Undergrad
+  degrees: BsC
   country: Portugal
-  image: team_member.png
+  image: team_Tomas-Gloria.jpg
   #altimage: 
   #position: Postdoc
   email: tomasggloria (at) tecnico.ulisboa.pt
   #scholar: WLWSdJ0AAAAJ
   #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
   #orcid: 
-  #description:
+  description: Tomás Glória received his BSc. degree from Instituto Superior Tecnico in 2023 in the field of electrical and computer engineering. 
+                He is currently in the first year of an MSc. degree from Instituto Superior Tecnico in electrical and computer engineering with a major in Energy.
 
 - name: Bruno Henrique Dias
   degrees: PhD
