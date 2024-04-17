@@ -49,7 +49,8 @@
                 {% if coauthor_url %}
                   <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,
                 {% else %}
-                  {{author.last}}, {{author.first}},
+                  <!--{{author.last}}, {{author.first}};-->
+                  {{author.first}}, {{author.last}},
                 {% endif %}
               {% endif %}
             {% else %}

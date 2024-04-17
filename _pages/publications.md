@@ -3,9 +3,9 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Project related publications and theses by categories in reversed chronological order.
-years: [2023, 2022, 2021]
-nav: false
-yearst: [2023,2022,2020]
+years: [2024]
+nav: true
+yearst: [2024]
 ---
 
 <div class="publications">
@@ -17,8 +17,9 @@ yearst: [2023,2022,2020]
 
 </div>
 
-#### Theses
 
+<!--#### Theses-->
+<!--
 <div class=publications>
 
 {% for y in page.yearst %}
@@ -26,4 +27,4 @@ yearst: [2023,2022,2020]
   {% bibliography -f theses -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div>
+</div> -->
