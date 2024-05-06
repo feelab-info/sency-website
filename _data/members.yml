@@ -121,23 +121,28 @@
 - name: Bruno Henrique Dias
   degrees: PhD
   country: Brazil
-  image: team_member.png
+  image: team_Bruno-Dias.jpgii
   #altimage: 
   #position: Postdoc
   email: bruno.dias (at) ufjf.br
   scholar: _vzwdEUAAAAJ
   #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
-  #orcid: 
-  #description:
+  orcid: 0000-0002-7663-235X
+  description: Bruno Dias received BSc. from Federal University of Juiz de Fora - UFJF in 2005, MSc. and PhD. degrees from PUC-Rio in 2006 and 2010, respectively, all in the field of the electric power system. 
+                He is an Associate Professor at UFJF, Brazil, and IEEE Senior Member since 2017. His research interests include power systems operation and planning, applied optimization and artificial intelligence, electricity markets and power system economics.
 
-- name: Paulo Ramos
+- name: Paulo Barbosa
   degrees: MSc
   country: Brazil
-  image: team_member.png
+  image: team_Paulo-Ramos.jpeg
   #altimage: 
   #position: Postdoc
-  email: paulo.barbosa (at) estudante.ufjf.br
+  email: paulo.barbosa (at) ice.ufjf.br
   scholar: sVM6uysAAAAJ
   #website: https://cse.mit.edu/people/vineet-jagadeesan-nair/
-  #orcid: 
-  #description:
+  orcid: 0000-0002-2514-6714
+  description: Paulo Barbosa holds a Bachelor of Science degree in Electrical Engineering from the University of Vassouras, which he earned in 2020. 
+                With a commitment to addressing energy challenges through a computer science lens, he embarked on a Master's program in Computer Science at the Federal University of Juiz de Fora in the same year. 
+                His research attempts primarily to understand the enhancement of various deep learning models tailored for electrical demand forecasting tasks. 
+                This pursuit has led him to examine the efficacy of deep learning models grounded in recurrent and Transformer architectures, delving into the pre-processing techniques and interpretability of predictions through SHAP Values. 
+                Presently, as he advances into the Electrical Engineering PhD program, Paulo aims to leverage his accumulated expertise to find novel methodologies for addressing electrical demand forecasting problems. His goal is to develop and implement innovative techniques that can furnish robust and optimized solutions, ensuring the satisfaction of the stakeholders within the electrical sector.
