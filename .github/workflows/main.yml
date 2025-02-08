@@ -25,7 +25,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y libmagickwand-dev
 
       - name: Check ImageMagick version
-        run: convert --version
+        run: magick -version
                           
       - name: Install deps
         run: |
