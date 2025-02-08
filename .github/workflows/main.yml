@@ -23,10 +23,8 @@ jobs:
       
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y libmagickwand-dev
-
-      - name: Check ImageMagick version
-        run: magick -version
-                          
+        
+        
       - name: Install deps
         run: |
           gem update --system
