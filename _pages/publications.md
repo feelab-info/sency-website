@@ -18,8 +18,8 @@ yearst: [2024]
 </div>
 
 
-<!--#### Theses-->
-<!--
+#### Theses
+
 <div class=publications>
 
 {% for y in page.yearst %}
@@ -27,4 +27,4 @@ yearst: [2024]
   {% bibliography -f theses -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div> -->
+</div>
