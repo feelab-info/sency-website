@@ -20,7 +20,13 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-            
+      
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y libmagickwand-dev
+
+      - name: Check ImageMagick version
+        run: convert --version
+                          
       - name: Install deps
         run: |
           gem update --system
