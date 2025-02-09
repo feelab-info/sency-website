@@ -56,4 +56,3 @@ Together, these events hosted over 500 people during five days. Learn more about
 <div style="width:100%; text-align:center">
 <a href="#" onclick="window.history.back()">Back</a>
 </div>
-s
