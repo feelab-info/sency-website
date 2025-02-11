@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Between June 25 and June 27, the ALAMO project was presented at IEEE MELECON 2024, in Porto, Portugal.
-date: 2024-06-28 00:00:00-0000
+title: Between July 11 and July 12, the ALAMO project was presented at LARSyS 2024, in Lisbon, Portugal.
+date: 2024-07-12 00:00:00-0000
 inline: false
 ---
 
-Between June 25 and June 27, the ALAMO project was at the IEEE MELECON Conference, represented by Hugo Morais and Herbert Amezquita.
+Between July 11 and July 12, Diogo Monteiro, Herbert Amexquita, and Tomás Glória presented the ALAMO project at the LARSyS 2024 annual meeting. This event brought together over 200 researcher from the LARSyS associate laboratory.
 
 
 <!-- Change the folder inbetween the '' -->
 **Photos**
 <div class="gallery">
   {% for image in site.static_files %}
-    {% if image.path contains '/assets/post_img/announcement_3a/' %}
+    {% if image.path contains '/assets/post_img/announcement_3b/' %}
       <div class="gallery-item">
         <img src="{{ image.path | relative_url }}" alt="{{ image.name }}" onclick="showFullscreen(this)">
       </div>
