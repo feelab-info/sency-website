@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Project related publications and theses by categories in reversed chronological order.
-years: [2024]
+years: [2025, 2024]
 nav: true
 yearst: [2024]
 ---
