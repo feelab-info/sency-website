@@ -7,7 +7,7 @@ description: The research team
 nav: true
 ---
 
-#### Current Members
+<!--- #### Current Members --->
 
 {% for person in site.data.members %}
 

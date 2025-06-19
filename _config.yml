@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "ALAMO:Accurate federated Learning with uncertainty quantification for DER forecasting Applied to sMart Grids planning and Operation" # the website title (if blank, full name will be used instead)
-first_name: ALAMO
+title: "SENCY: Sustainable ENergy transitions in the Catering industrY" # the website title (if blank, full name will be used instead)
+first_name: SENCY
 last_name:
-email: alamo@tecnico.ulisboa.pt
+email: sency@tecnico.ulisboa.pt
 #description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 description: >
-  Accurate federated Learning with uncertainty quantification for DER forecasting Applied to sMart Grids planning and Operation
+  Sustainable ENergy transitions in the Catering industrY
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with an <a href="https://github.com/alshedivat/al-folio">al-folio</a> based theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 #icon: 🔥 # the emoji used as the favicon
 icon: /favicon.ico
 #url: https://alspereira.github.io # the base hostname & protocol for your site
-url: https://alamo.tecnico.ulisboa.pt/
+url: https://sency.tecnico.ulisboa.pt/
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -55,8 +55,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: alamo_project # your Twitter handle
-linkedin_username: alamo-project # your LinkedIn user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -73,7 +73,7 @@ stackoverflow_id: #your stackoverflow id
 rss_icon: false
 
 contact_note: >
-  Feel free to drop us an email to know more about the ALAMO project.
+  Feel free to drop us an email to know more about the SENCY project.
 #You can even add a little note about which of these is the best way to reach you. don't even bother
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
