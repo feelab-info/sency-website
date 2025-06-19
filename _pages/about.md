@@ -3,14 +3,14 @@ layout: about
 title: Home
 permalink: /
 #description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-description: Accurate federated Learning with uncertainty quantification for DER forecasting Applied to sMart Grids planning and Operation
+description: Sustainable ENergy transitions in the Catering industrY
 
 profile:
   align: right
   #image: prof_pic.jpg
   #image: untitled.png
-  image: logo-blue-no-background.png
-  image_w: logo-blue-no-background.png
+  image: sency_logo_color.png
+  image_w: sency_logo_color.png
   image_b: logo-white-no-background.png
   address: >
     <p>555 your office number</p>
@@ -24,10 +24,16 @@ social: true  # includes social icons at the bottom of the page
 
 <div class='specialParagraph' markdown='1'>
 
-The ALAMO project aims to address the challenges posed by the increasing integration of Distributed Energy Resources (DERs) into power grids while ensuring consumers’ privacy and accounting for uncertainties in forecasting models. The primary objectives include the development of accurate forecasting algorithms using Federated Learning, quantifying epistemic and aleatoric uncertainty in these models, and integrating them into operational planning tools for Distribution System Operators (DSOs).
+Energy production, distribution, and consumption account for a large share of global greenhouse gas emissions, driving climate change and threatening sustainable development. Industrial kitchens—restaurants and large-scale food preparation facilities—are among the most energy-intensive commercial buildings, **using 5 to 7 times more energy per square meter than typical commercial spaces**.
 
-Current planning tools lack privacy considerations and do not adequately account for uncertainties, rendering them obsolete in the context of growing renewable energy sources (RES) connected to distribution systems. This project also emphasizes the importance of coordination between Transmission System Operators (TSOs) and DSOs, especially in services like frequency regulation and congestion management. Additionally, it addresses the incorporation of uncertainties in Peer-to-Peer (P2P) energy markets, which are becoming increasingly prevalent.
+**SENCY** is a research and innovation project aiming to transform industrial kitchens into more sustainable, efficient, and energy-integrated environments. By leveraging real data collected from multiple Portuguese restaurants, the project develops advanced forecasting models and digital tools, such as digital twins, to monitor and optimize energy and water consumption.
 
-The research plan comprises five critical tasks involving teams from MIT in the USA and ITI/LARSyS and INESC-ID in Portugal. These tasks encompass dataset preparation, Federated Learning algorithm development, uncertainty quantification, application of forecasting in grid operational planning, TSO-DSO coordination, and P2P trading. The project aims to demonstrate the effectiveness of the developed models in both virtual and physical testbeds, even with limited data availability due to privacy constraints.
+Furthermore, **SENCY** explores strategies to integrate renewable energy sources and local storage, enabling industrial kitchens to actively participate in electricity markets and contribute to reducing their carbon footprint. Focusing on technological innovation and end-user acceptance, **SENCY** aims not only to reduce operational costs and waste but also to promote a proactive role for restaurants in the national energy transition.
+
+**SENCY** is the third phase of a research initiative led by two [FCT](https://www.fct.pt/) Associated Laboratories, [ITI/LARSyS](https://www.ITI.larsys.pt) and [INESC-ID](https://www.inesc-id.pt/), both recognized for excellence in consecutive evaluations. It builds on two previous projects, Future Industrial Kitchen (FIK) and Exploring the Human-Water-Energy Nexus in Industrial Kitchens (nexIK). The initial 12-month FIK project developed and tested sensing technologies in three restaurants, while the 24-month nexIK project expanded this research nationally, collecting long-term data and exploring new opportunities for sustainability in the sector.
+
+
+The **SENCY** project is co-funded by the European Regional Development Fund (ERDF) and by FCT through national funds.
+
 
 </div>
