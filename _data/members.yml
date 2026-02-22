@@ -33,3 +33,23 @@
               He is a senior researcher at INESC-ID and an Associate Professor at the University of Lisbon. His research interests are in the development and deployment of smart grid methods and tools. 
               He participates in the definition of operational planning tools used by the French DSO and the development of hardware-agnostic solutions based on IEC standards to be used to control distributed energy resources. 
               He also works actively in the development of strategies for electric mobility integration in power systems.
+
+- name: Paulo Bala
+  degrees: PhD
+  image: team_Paulo-Bala.jpeg
+  country: Portugal
+  email: paulo.bala (at) tecnico.ulisboa.pt
+  website: https://www.paulobala.com
+  scholar: IkF3sn4AAAAJ
+  twitter: "PauloACBala"
+  linkedin: "paulobala"
+  orcid: "orcid.org/0000-0003-1743-0261"
+  description: Paulo Bala is an Auxiliary Researcher at the Interactive Technologies Institute (ITI/LARSyS) and ARDITI (Regional Agency for the Development of Research, Technology and Innovation) since 2025. He holds a Ph.D. in Digital Media from FCT-UNL, Lisbon (2022), where he specialized in 360° video and eXtended Reality (XR). He also holds a Dual Master's in Entertainment Technology from Carnegie Mellon University and the University of Madeira, and BSc/MSc degrees in Informatics Engineering from the University of Madeira. His research focuses on Human-Computer Interaction and XR, with a strong emphasis on cultural heritage, health and sustainability and his research work has been published in top peer-reviewed venues in Human-Computer Interaction (such as CHI, CSCSW, DIS, and ISMAR).
+
+- name: Nicollas Nogueira
+  degrees: BSc
+  image: team_Nicollas-Nogueira.jpeg
+  country: Portugal
+  linkedin: "nicollas-nogueira-591232283"
+  description: "Nicollas Nogueira is a student of Electrical Engineering and Computer Science at the Instituto Superior Técnico, University of Lisbon. Previously, he worked on a project applying large language models (LLMs) in the context of energy communities for ITI/LARSyS. At SENCY, his work focuses on updating and integrating the sensor infrastructure for energy and water monitoring, including communication and data storage, as well as supporting the assessment of the viability of industrial kitchens within energy communities."
+

@@ -25,6 +25,9 @@ nav: true
         {% if person.twitter %}
           <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
         {% endif %}
+         {% if person.linkedin %}
+          <i class="fab fa-linkedin"></i> <a href= "https://www.linkedin.com/in/{{person.linkedin}}" target="_blank"> @{{person.linkedin}} </a> <br>
+        {% endif %}
         {% if person.website %}
           <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
         {% endif %}
