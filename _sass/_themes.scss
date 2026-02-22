@@ -35,6 +35,17 @@
     display: block;
   }
 
+  .barra_c {
+    display: block;
+  }
+
+  .barra_w {
+    display: none;
+  }
+
+  .logo_acronym {
+    margin-left: 0rem;
+  }
 }
 
 html[data-theme='dark'] {
@@ -65,6 +76,14 @@ html[data-theme='dark'] {
   }
 
   .logo_b {
+    display: block;
+  }
+
+  .barra_c {
+    display: none;
+  }
+
+  .barra_w {
     display: block;
   }
 }

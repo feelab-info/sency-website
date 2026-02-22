@@ -8,14 +8,21 @@ description: Sustainable ENergy transitions in the Catering industrY
 profile:
   align: right
   #image: prof_pic.jpg
-  #image: untitled.png
-  image: sency_logo_color.png
-  image_w: sency_logo_color.png
-  image_b: sency_logo_white.png
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  #image: untitled.png 
+  logo_acronym: sency_logo_color.png
+  image: sency_logo_color_circle.png
+  image_w: sency_logo_color_circle.png
+  image_b: sency_logo_white_circle.png
+  #address: >
+  #  <p>555 your office number</p>
+  #  <p>123 your address street</p>
+  #  <p>Your City, State 12345</p>
+
+barra: barra-financiamento_color.png
+barra_c: barra-financiamento_color.png
+barra_w: barra-financiamento_white.png
+
+
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -35,5 +42,25 @@ Furthermore, **SENCY** explores strategies to **integrate renewable energy sourc
 
 The **SENCY** project is co-funded by the European Regional Development Fund (ERDF) and by FCT through national funds.
 
+<div markdown="1">
+  <div class="barra_c" style="width:100%;text-align: center;">
+        {% if page.barra_c %}
+          {% responsive_image_block %}
+            path: {{ page.barra_c | prepend: 'assets/img/' }}
+            style: "width:100%"
+            alt: {{ page.barra }}
+          {% endresponsive_image_block %}
+        {% endif %}
+  </div>
+  <div class="barra_w" style="width:100%;text-align: center;">
+        {% if page.barra_w %}
+          {% responsive_image_block %}
+            path: {{ page.barra_w | prepend: 'assets/img/' }}
+            style: "width:100%"
+            alt: {{ page.barra }}
+          {% endresponsive_image_block %}
+        {% endif %}
+  </div>
+</div>
 
 </div>
