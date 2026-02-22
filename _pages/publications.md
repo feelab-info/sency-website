@@ -6,6 +6,7 @@ description: Project related publications and theses by categories in reversed c
 years: [2025, 2024]
 nav: false
 yearst: [2024]
+logo_acronym: sency_logo_color.png
 ---
 
 <div class="publications">

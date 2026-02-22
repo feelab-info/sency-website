@@ -10,11 +10,11 @@ layout: default
     
      <!-- <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }} -->
      <span class="logo_acronym profile float-left">
-      {% if page.profile.logo_acronym %}
+      {% if page.logo_acronym %}
         {% responsive_image_block %}
-          path: {{ page.profile.logo_acronym | prepend: 'assets/img/' }}
+          path: {{ page.logo_acronym | prepend: 'assets/img/' }}
           style: "width:100%"
-          alt: {{ page.profile.logo_acronym}}
+          alt: {{ page.logo_acronym}}
         {% endresponsive_image_block %}
       {% endif %}
       </span><br>

@@ -4,6 +4,7 @@ permalink: /project/
 title: Project
 description: The SENCY project in a glance
 nav: true
+logo_acronym: sency_logo_color.png
 
 barra: barra-financiamento_color.png
 barra_c: barra-financiamento_color.png

@@ -4,12 +4,12 @@ title: Home
 permalink: /
 #description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 description: Sustainable ENergy transitions in the Catering industrY
+logo_acronym: sency_logo_color.png
 
 profile:
   align: right
   #image: prof_pic.jpg
   #image: untitled.png 
-  logo_acronym: sency_logo_color.png
   image: sency_logo_color_circle.png
   image_w: sency_logo_color_circle.png
   image_b: sency_logo_white_circle.png

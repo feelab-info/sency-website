@@ -5,6 +5,7 @@ title: Resources
 #description: Materials for courses you taught. Replace this text with your description.
 description: Free stuff for the community
 nav: false
+logo_acronym: sency_logo_color.png
 ---
 
 ### Datasets

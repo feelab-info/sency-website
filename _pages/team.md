@@ -3,7 +3,7 @@ layout: page
 permalink: /team/
 title: Team
 description: The research team
-
+logo_acronym: sency_logo_color.png
 nav: true
 ---
 
