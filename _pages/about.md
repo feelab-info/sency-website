@@ -39,8 +39,7 @@ Furthermore, **SENCY** explores strategies to **integrate renewable energy sourc
 
 **SENCY** is the third phase of a research initiative led by two [FCT](https://www.fct.pt/) Associated Laboratories, [ITI/LARSyS](https://www.ITI.larsys.pt) and [INESC-ID](https://www.inesc-id.pt/), both recognized for excellence in consecutive evaluations. It builds on two previous projects, Future Industrial Kitchen (FIK) and [Exploring the Human-Water-Energy Nexus in Industrial Kitchens (nexIK)](https://nexik.tecnico.ulisboa.pt). The initial 12-month FIK project developed and tested sensing technologies in three restaurants, while the 24-month nexIK project expanded this research nationally, collecting long-term data and exploring new opportunities for sustainability in the sector.
 
-
-The **SENCY** project is co-funded by the European Regional Development Fund (ERDF) and by FCT through national funds.
+The **SENCY** project is funded by the Portuguese Foundation for Science and Technology (FCT) under grant LISBOA2030-FEDER-00850400, through ERDF and national funds.
 
 <div markdown="1">
   <div class="barra_c" style="width:100%;text-align: center;">
