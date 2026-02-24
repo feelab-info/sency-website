@@ -49,6 +49,7 @@
 - name: Marcelo Braço Forte
   degrees: MSc
   image: team_Marcelo-Braco-Forte.png
+  email: marcelojsforte (at) tecnico.ulisboa.pt
   country: Portugal
   linkedin: "marcelo-bra%C3%A7o-forte-203b821b7"
   orcid: "orcid.org/0009-0006-2440-0190"
@@ -62,3 +63,12 @@
   linkedin: "nicollas-nogueira-591232283"
   description: "Nicollas Nogueira is a student of Electrical Engineering and Computer Science at the Instituto Superior Técnico, University of Lisbon. Previously, he worked on a project applying large language models (LLMs) in the context of energy communities for ITI/LARSyS. At SENCY, his work focuses on updating and integrating the sensor infrastructure for energy and water monitoring, including communication and data storage, as well as supporting the assessment of the viability of industrial kitchens within energy communities."
 
+- name: Luís Martins
+  degrees: BSc
+  image: team_Luis_Martins.jpeg
+  email: ltomasmartins (at) tecnico.ulisboa.pt
+  country: Portugal
+  linkedin: "https://www.linkedin.com/in/lu%C3%ADs-martins-2418b2231/"
+  orcid: "orcid.org0009-0001-0993-9837"
+  description: "Luís received his B.Sc degree in Eletrical and Computer Engineering at Nova FCT and is taking his master’s at Instituto Superior Técnico (IST) with major in Control, Robotics and AI. He is a Research Fellow at INESC-ID working at the ATE project. Some of his interests lie on the fields of machine learning and data science, embedded systems and also smart grid operations. He has worked in research previoulsy at Nova SBE and also at FCT."
+  
