@@ -63,12 +63,27 @@
   linkedin: "nicollas-nogueira-591232283"
   description: "Nicollas Nogueira is a student of Electrical Engineering and Computer Science at the Instituto Superior Técnico, University of Lisbon. Previously, he worked on a project applying large language models (LLMs) in the context of energy communities for ITI/LARSyS. At SENCY, his work focuses on updating and integrating the sensor infrastructure for energy and water monitoring, including communication and data storage, as well as supporting the assessment of the viability of industrial kitchens within energy communities."
 
+- name: Liliana Sun
+  degrees: BSc
+  image: team_Liliana_Sun.jpg
+  country: Portugal
+  linkedin: "liliana-sun-668b42280"
+  orcid: "orcid.org/0009-0000-1327-2767"
+  description: "Liliana Sun received her B.Sc. in Computer and Informatics Engineering from Instituto Superior Técnico and is currently pursuing a Master’s degree in the same field. She specializes in Visualization & Interaction and Artificial Intelligence. She is currently participating in the SENCY project, where she develops interfaces that integrate large language models to create more intelligent and interactive AI systems."
+
 - name: Luís Martins
   degrees: BSc
   image: team_Luis_Martins.jpeg
   email: ltomasmartins (at) tecnico.ulisboa.pt
   country: Portugal
-  linkedin: "https://www.linkedin.com/in/lu%C3%ADs-martins-2418b2231/"
-  orcid: "orcid.org0009-0001-0993-9837"
+  linkedin: "lu%C3%ADs-martins-2418b2231"
+  orcid: "orcid.org/0009-0001-0993-9837"
   description: "Luís received his B.Sc degree in Eletrical and Computer Engineering at Nova FCT and is taking his master’s at Instituto Superior Técnico (IST) with major in Control, Robotics and AI. He is a Research Fellow at INESC-ID working at the ATE project. Some of his interests lie on the fields of machine learning and data science, embedded systems and also smart grid operations. He has worked in research previoulsy at Nova SBE and also at FCT."
   
+- name: Mariana Brites
+  image: team_Mariana_Lameiro.jpg
+  country: Portugal
+  linkedin: "mariana-lameiro"
+  website: https://marianalameiro.netlify.app
+  orcid: "orcid.org/0009-0001-1071-7481"
+  description: "Mariana Lameiro is currently pursuing a B.Sc. degree in General Studies at the University of Lisbon, with minors in Biology, Mathematics, and Psychology, and complementary coursework in Programming. She has been a Research Intern at LASIGE – Large-Scale Informatics Systems Laboratory, University of Lisbon, where she applied computational methodologies and Large Language Models to accelerometry data for predictive modelling of Parkinson's disease progression. In parallel, she has been a Research Trainee at IBEB – Institute of Biophysics and Biomedical Engineering, conducting literature reviews on evoked potentials and developing technical proficiency in EEG data processing and neural signal analysis"
