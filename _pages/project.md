@@ -4,7 +4,11 @@ permalink: /project/
 title: Project
 description: The SENCY project in a glance
 nav: true
+logo_acronym: sency_logo_color.png
 
+barra: barra-financiamento_color.png
+barra_c: barra-financiamento_color.png
+barra_w: barra-financiamento_white.png
 logo_1: larsys.png
 logo_2: inesc_id_logo.png
 logo_3: fct_logo.png
@@ -55,7 +59,7 @@ The SENCY project will run for 36 months, between August 2025 and July 2028. The
 
 <div class="float-left" style="width:70%; padding-left:10px" markdown="1">
 
-The Associate Laboratory of Robotics and Engineering Systems ([LARSyS](https://larsys.pt)) was founded in 2001 to conduct basic and applied research in engineering technologies relevant to industrial applications and societal challenges. The Interactive Technologies Institute ([ITI](https://iti.larsys.pt)) is the LARSyS research unit responsihle for the SENCY project.
+The Associate Laboratory of Robotics and Engineering Systems ([LARSyS](https://larsys.pt)) was founded in 2001 to conduct basic and applied research in engineering technologies relevant to industrial applications and societal challenges. The Interactive Technologies Institute ([ITI](https://iti.larsys.pt)) is the LARSyS research unit responsible for the SENCY project.
 
 </div>
 </div>
@@ -104,30 +108,28 @@ The Universidade Federal de Juiz de Fora (UFJF) in Juiz de Fora, Minas Gerais, B
 ## Funding
 
 <div style="width:100%;"  markdown="1">
-  The SENCY project is co-funded by the European Regional Development Fund (ERDF) and by FCT through national funds.
+The **SENCY** project is funded by the Portuguese Foundation for Science and Technology (FCT) under grant LISBOA2030-FEDER-00850400, through ERDF and national funds.
 </div>
 
 <div markdown="1">
-  <div style="width:100%;text-align: center;">
-        {% if page.logo_3 %}
+  <div class="barra_c" style="width:100%;text-align: center;">
+        {% if page.barra_c %}
           {% responsive_image_block %}
-            path: {{ page.logo_3 | prepend: 'assets/img/' }}
-            //class: "img-fluid z-depth-1 rounded"
-            style: "width:30%"
-            alt: {{ page.profile.image }}
-          {% endresponsive_image_block %}
-        {% endif %}
-        
-          {% if page.logo_4 %}
-          {% responsive_image_block %}
-            path: {{ page.logo_4 | prepend: 'assets/img/' }}
-            //class: "img-fluid z-depth-1 rounded"
-            style: "width:30%"
-            alt: {{ page.profile.image }}
+            path: {{ page.barra_c | prepend: 'assets/img/' }}
+            style: "width:100%"
+            alt: {{ page.barra }}
           {% endresponsive_image_block %}
         {% endif %}
   </div>
-  
+  <div class="barra_w" style="width:100%;text-align: center;">
+        {% if page.barra_w %}
+          {% responsive_image_block %}
+            path: {{ page.barra_w | prepend: 'assets/img/' }}
+            style: "width:100%"
+            alt: {{ page.barra }}
+          {% endresponsive_image_block %}
+        {% endif %}
+  </div>
 </div>
 
 

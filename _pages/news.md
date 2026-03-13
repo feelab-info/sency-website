@@ -5,6 +5,7 @@ permalink: /news/
 description: Keep up with all the news from the project.
 nav: true
 horizontal: true
+logo_acronym: sency_logo_color.png
 ---
 
 <div class="news">

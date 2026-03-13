@@ -5,10 +5,21 @@
     <div class="container">
 
       {% if page.title != "Home" %}
-      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+      
+      <a class="navbar-brand" href="{{ site.baseurl | prepend: site.url }}/">
        <!--{% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}-->
-       <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}
-      </a>
+       <!--<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}-->
+      <span class="float-left">
+        {% if page.logo_acronym %}
+          {% responsive_image_block %}
+            path: {{ page.logo_acronym | prepend: 'assets/img/' }}
+            style: "width:30%"
+            alt: {{ page.logo_acronym}}
+          {% endresponsive_image_block %}
+        {% endif %}
+      </span>
+    </a>
+      
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">
