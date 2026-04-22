@@ -108,7 +108,7 @@ The Universidade Federal de Juiz de Fora (UFJF) in Juiz de Fora, Minas Gerais, B
 ## Funding
 
 <div style="width:100%;"  markdown="1">
-The **SENCY** project is funded by the Portuguese Foundation for Science and Technology (FCT) under grant LISBOA2030-FEDER-00850400, through ERDF and national funds.
+The **SENCY** project (17115 - 2023.16186.ICDT) is funded by the Portuguese Foundation for Science and Technology (FCT) and Programa Regional de Lisboa (Lisboa 2030i) under grant LISBOA2030-FEDER-00850400, through ERDF and national funds. More details about this operation can be found <a target="_blank" href="/assets/pdf/ficha_operacao.pdf">here</a>.
 </div>
 
 <div markdown="1">

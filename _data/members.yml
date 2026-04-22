@@ -51,7 +51,7 @@
   image: team_Marcelo-Braco-Forte.png
   email: marcelojsforte (at) tecnico.ulisboa.pt
   country: Portugal
-  linkedin: "marcelo-bra%C3%A7o-forte-203b821b7"
+  linkedin: "marcelo-braço-forte-203b821b7"
   orcid: "orcid.org/0009-0006-2440-0190"
   scholar: XpIleMUAAAAJ
   description: "Marcelo received the B.Sc. and M.Sc. degrees in electrical and computer engineering from the Instituto Superior Técnico, Universidade de Lisboa, in 2021 and 2023, respectively. He is currently pursuing a Ph.D. degree in engineering and technology with an emphasis on data science, machine learning, electric vehicles, and renewable energy. He has been a Researcher at the INESC-ID – Instituto de Engenharia de Sistemas e Computadores Investigação e Desenvolvimento em Lisboa, since 2023, participating in multiple horizon Europe-funded projects. He has received four awards and/or honours for his academic journey."
@@ -76,7 +76,7 @@
   image: team_Luis_Martins.jpeg
   email: ltomasmartins (at) tecnico.ulisboa.pt
   country: Portugal
-  linkedin: "lu%C3%ADs-martins-2418b2231"
+  linkedin: "luís-martins-2418b2231"
   orcid: "orcid.org/0009-0001-0993-9837"
   description: "Luís received his B.Sc degree in Eletrical and Computer Engineering at Nova FCT and is taking his master’s at Instituto Superior Técnico (IST) with major in Control, Robotics and AI. He is a Research Fellow at INESC-ID working at the ATE project. Some of his interests lie on the fields of machine learning and data science, embedded systems and also smart grid operations. He has worked in research previoulsy at Nova SBE and also at FCT."
   
@@ -87,3 +87,9 @@
   website: https://marianalameiro.netlify.app
   orcid: "orcid.org/0009-0001-1071-7481"
   description: "Mariana Lameiro is currently pursuing a B.Sc. degree in General Studies at the University of Lisbon, with minors in Biology, Mathematics, and Psychology, and complementary coursework in Programming. She has been a Research Intern at LASIGE – Large-Scale Informatics Systems Laboratory, University of Lisbon, where she applied computational methodologies and Large Language Models to accelerometry data for predictive modelling of Parkinson's disease progression. In parallel, she has been a Research Trainee at IBEB – Institute of Biophysics and Biomedical Engineering, conducting literature reviews on evoked potentials and developing technical proficiency in EEG data processing and neural signal analysis"
+
+- name: André Bento
+  image: team_Andre-Bento.jpeg
+  country: Portugal
+  linkedin: "andré-bento-a32b18205"
+  description: "André Bento received his B.Sc. in Computer Science and Engineering from Instituto Superior Técnico, University of Lisbon, and is currently pursuing a Master's degree in the same field, specializing in Artificial Intelligence and Cybersecurity. As part of the SENCY project, his research focuses on Non-Intrusive Load Monitoring applied to industrial kitchen environments, using deep learning and tabular modelling to estimate individual appliance consumption from aggregate power measurements. Alongside his studies, he works as a Data Scientist at Cloudflare, where he develops machine learning systems for forecasting and churn prediction."
